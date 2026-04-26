@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Poppins, Roboto } from "next/font/google";
 import "./globals.css";
-// import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { MobileBottomBar } from "@/components/layout/MobileBottomBar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,16 +21,13 @@ const roboto = Roboto({
   display: "swap",
 });
 
-// ─── Site-wide metadata (child layouts/pages override individual keys) ────────
+// ─── Site-wide metadata ────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  // metadataBase resolves all relative image/URL strings in metadata
   metadataBase: new URL("https://www.srvdetailing.co.uk"),
-
   applicationName: "SRV Detailing",
   title: {
     default:
       "Professional Mobile Car Valeting & Detailing in Manchester | SRV Detailing",
-    // Child pages can set: title: "Page Title" and it renders as "Page Title | SRV Detailing"
     template: "%s | SRV Detailing",
   },
   description:
@@ -44,11 +43,6 @@ export const metadata: Metadata = {
     "ceramic coating",
     "mobile valeting Manchester",
   ],
-
-  
-  // Canonical homepage — child pages set their own canonical.
-  // hreflang: self-referential en-GB signals UK locale to Google.
-  // x-default is the fallback for any unmatched locale.
   alternates: {
     canonical: "https://www.srvdetailing.co.uk/",
     languages: {
@@ -57,7 +51,6 @@ export const metadata: Metadata = {
     },
   },
   manifest: "/manifest.json",
-  // Instruct crawlers — index all, follow all links
   robots: {
     index: true,
     follow: true,
@@ -69,7 +62,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  // ─── Open Graph ────────────────────────────────────────────────────────────
   openGraph: {
     type: "website",
     locale: "en_GB",
@@ -79,7 +71,6 @@ export const metadata: Metadata = {
       "Professional Mobile Car Valeting & Detailing in Manchester | SRV Detailing",
     description:
       "Stockport-based mobile car valeting and detailing serving all Manchester. Paint correction, ceramic coating, interior deep cleaning. 22 years experience.",
-    // Resolved against metadataBase → https://www.srvdetailing.co.uk/mobile-van.webp
     images: [
       {
         url: "/mobile-van.webp",
@@ -89,7 +80,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  // ─── Twitter / X Card ──────────────────────────────────────────────────────
   twitter: {
     card: "summary_large_image",
     site: "@srvdetailing",
@@ -102,13 +92,10 @@ export const metadata: Metadata = {
   },
 };
 
-// ─── Site-wide JSON-LD (entity hub — business identity only) ─────────────────
-// FAQ schema is intentionally NOT included here; it lives on individual pages
-// that display FAQ content so Google associates it with the correct URL.
+// ─── Site-wide JSON-LD ────────────────────────────────────────────────────────
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    // Primary entity — AutoDetailing subtype of LocalBusiness
     {
       "@type": "AutoDetailing",
       "@id": "https://www.srvdetailing.co.uk/#business",
@@ -138,8 +125,6 @@ const jsonLd = {
         "latitude": "53.4746",
         "longitude": "-2.0873",
       },
-      // Hours kept consistent with /manchester page schema.
-      // Mobile service — early/late slots available by request.
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
@@ -170,12 +155,9 @@ const jsonLd = {
         { "@type": "Place", "name": "Alderley Edge" },
         { "@type": "Place", "name": "Knutsford" },
       ],
-      "sameAs": [
-        "https://share.google/AZFyOF2xIb3XaZetX",
-      ],
+      "sameAs": ["https://share.google/AZFyOF2xIb3XaZetX"],
       "hasMap": "https://share.google/AZFyOF2xIb3XaZetX",
     },
-    // Service entity — linked to business via provider
     {
       "@type": "Service",
       "@id": "https://www.srvdetailing.co.uk/#services",
@@ -190,7 +172,6 @@ const jsonLd = {
         "serviceLocation": { "@type": "Place", "name": "Customer Location" },
       },
     },
-    // Offer catalogue — surface in rich results
     {
       "@type": "OfferCatalog",
       "name": "Car Detailing & Valeting Services",
@@ -238,7 +219,6 @@ const jsonLd = {
         },
       ],
     },
-    // WebSite entity — enables Sitelinks Search Box eligibility
     {
       "@type": "WebSite",
       "@id": "https://www.srvdetailing.co.uk/#website",
@@ -260,11 +240,8 @@ export default function RootLayout({
   return (
     <html lang="en-GB" className={`${poppins.variable} ${roboto.variable}`}>
       <head>
-        {/* Preconnect to Google Maps origins used by MapEmbed iframes.
-            Establishes TCP + TLS handshake early, cutting ~200-400ms per map. */}
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://maps.gstatic.com" crossOrigin="anonymous" />
-        {/* DNS prefetch as fallback for browsers that skip preconnect */}
         <link rel="dns-prefetch" href="https://maps.googleapis.com" />
         <link rel="dns-prefetch" href="https://maps.gstatic.com" />
       </head>
@@ -274,8 +251,24 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <TooltipProvider>
-          {children}
-          {/* <Toaster /> */}
+          {/* Global navigation */}
+          <Header />
+
+          {/* Page content — padding-bottom accounts for mobile bottom bar */}
+          <div
+            id="main-content"
+            className="pb-14 lg:pb-0"
+            style={{ paddingBottom: 'max(3.5rem, calc(3.5rem + env(safe-area-inset-bottom)))' }}
+          >
+            {children}
+          </div>
+
+          {/* Global footer */}
+          <Footer />
+
+          {/* Mobile sticky bottom bar — highest CRO element */}
+          <MobileBottomBar />
+
           <Sonner />
         </TooltipProvider>
       </body>
