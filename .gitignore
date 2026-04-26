@@ -1,0 +1,147 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.next/
+dist/
+dist-ssr/
+build/
+out/
+
+# Environment Variables
+.env*
+.env.*
+.env.local
+!.env.example
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Credentials and sensitive files
+credentials.json
+*.pem
+*.key
+*.crt
+*.cert
+service-account-key.json
+firebase-adminsdk.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vcxproj*
+*.vcproj*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+.tmp/
+temp/
+coverage/
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.parcel-cache/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (Node.js)
+*.log
+*.out
+*.err
+
+# Package manager lock files — only ignore non-npm lock files
+# package-lock.json MUST be committed for reproducible CI/Vercel builds
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Testing
+.nyc_output/
+coverage/
+.nyc_output/
+
+# Typescript
+*.tsbuildinfo
+
+# Next.js specific
+.next/
+.npminstall-done
+
+# Local development
+*.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# IDE specific
+*.code-workspace
+
+# Firebase
+.firebase/
+firebase-debug.log*
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Serverless
+.serverless/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Docker
+.docker/
+*.tar
+*.tar.gz
+
+# Miscellaneous
+*.tgz
+*.zip
+.DS_Store
+Thumbs.db
