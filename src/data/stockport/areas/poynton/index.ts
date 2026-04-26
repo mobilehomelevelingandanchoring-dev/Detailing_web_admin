@@ -36,7 +36,7 @@ export const poyntonAreaData: AreaPageData = {
   contentSections: [
     {
       type: 'text',
-      heading: 'SRV Detailing: Poynton's Mobile Car Detailing Specialists',
+      heading: "SRV Detailing: Poynton's Mobile Car Detailing Specialists",
       bodyParagraphs: [
         "Poynton sits on the southern edge of Stockport — a proper village with a community feel, great independent shops on the High Street, Poynton Pool for weekend walks, and more than its fair share of cars that deserve proper care. We've been detailing and valeting vehicles across SK12 for years, and the area consistently delivers one of our most loyal customer bases.",
         "We're based in Dukinfield, which puts us roughly 20 minutes from Poynton via the A523. We know the roads, we know the conditions, and we know what SK12 paintwork has to deal with across the seasons. Our mobile unit brings everything to your driveway — machine polishers, steam cleaners, professional chemicals, our own water supply — so you don't need to drive anywhere or wait in a valet queue.",
