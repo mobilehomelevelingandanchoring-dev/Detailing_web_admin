@@ -28,6 +28,13 @@ const nextConfig = {
       { source: '/services/interior-valeting',  destination: '/manchester/car-valeting/interior-valeting',   permanent: true },
       { source: '/services/exterior-valeting',  destination: '/manchester/car-valeting/exterior-valeting',   permanent: true },
 
+      // ─── Flat legacy URLs (Google Search Console 404s) ─────────────────────
+      { source: '/mobile-car-valeting-stockport',    destination: '/stockport/car-valeting/mobile-valeting',          permanent: true },
+      { source: '/services/pet-hair-removal',        destination: '/manchester/car-valeting/pet-hair-removal',         permanent: true },
+      { source: '/services/headlight-restoration',   destination: '/manchester/car-detailing/headlight-restoration',   permanent: true },
+      { source: '/guides/how-often-valet-car',       destination: '/guides/how-often-should-you-valet-your-car',       permanent: true },
+      { source: '/dashboard',                        destination: '/admin',                                            permanent: true },
+
       // ─── Location URL migrations (flat → nested city/area structure) ───────
       { source: '/locations/manchester-city-centre', destination: '/manchester/areas/city-centre', permanent: true },
       { source: '/locations/didsbury',               destination: '/manchester/areas/didsbury',    permanent: true },

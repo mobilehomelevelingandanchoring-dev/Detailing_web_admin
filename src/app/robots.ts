@@ -10,6 +10,8 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           '/api/',
           '/_next/',
+          '/admin',
+          '/admin/',
           // Block parameterised URLs that create duplicate content
           '/*?*utm_',
           '/*?*ref=',
@@ -20,7 +22,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: 'Bingbot',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/*?*utm_', '/*?*ref='],
+        disallow: ['/api/', '/_next/', '/admin', '/admin/', '/*?*utm_', '/*?*ref='],
       },
       // ─── All other legitimate crawlers ────────────────────────────────────
       {
@@ -29,6 +31,8 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           '/api/',
           '/_next/',
+          '/admin',
+          '/admin/',
           '/*?*utm_',
           '/*?*ref=',
           '/*?*fbclid=',
