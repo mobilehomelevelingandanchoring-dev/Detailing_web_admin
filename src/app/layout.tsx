@@ -228,8 +228,6 @@ export default function RootLayout({
   return (
     <html lang="en-GB" className={`${poppins.variable} ${roboto.variable}`}>
       <head>
-        <link rel="preconnect" href="https://maps.googleapis.com" />
-        <link rel="preconnect" href="https://maps.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://maps.googleapis.com" />
         <link rel="dns-prefetch" href="https://maps.gstatic.com" />
       </head>

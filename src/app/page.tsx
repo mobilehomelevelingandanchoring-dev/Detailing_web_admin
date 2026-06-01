@@ -284,6 +284,7 @@ const ComprehensiveServicesSection = () => {
         className="object-cover object-center"
         sizes="100vw"
         aria-hidden="true"
+        quality={60}
       />
       {/* Deep overlay for card contrast */}
       <div className="absolute inset-0 bg-black/75" />
@@ -483,12 +484,15 @@ const MobileValetingSection = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-12 rounded-xl overflow-hidden shadow-2xl"
+            className="relative mb-12 rounded-xl overflow-hidden shadow-2xl h-48 sm:h-64 md:h-80 lg:h-96"
           >
-            <img
-              src={interiorImage.src}
+            <Image
+              src={interiorImage}
               alt="Premium BMW interior detailing with steering wheel and dashboard deep cleaning"
-              className="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+              quality={75}
             />
           </motion.div>
 
@@ -640,12 +644,15 @@ const AdvancedDetailingSection = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-12 rounded-xl overflow-hidden shadow-2xl"
+            className="relative mb-12 rounded-xl overflow-hidden shadow-2xl h-48 sm:h-64 md:h-80 lg:h-96"
           >
-            <img
-              src={mustangImage.src}
+            <Image
+              src={mustangImage}
               alt="White Mustang Mach 1 rear view showing flawless paint correction results"
-              className="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+              quality={75}
             />
           </motion.div>
 
@@ -802,12 +809,15 @@ const WhyMobileSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mb-8 float-right ml-6 w-full md:w-1/2 rounded-xl overflow-hidden shadow-xl"
+              className="relative mb-8 float-right ml-6 w-full md:w-1/2 rounded-xl overflow-hidden shadow-xl h-48 sm:h-64 md:h-80"
             >
-              <img
-                src={greenBmwImage.src}
+              <Image
+                src={greenBmwImage}
                 alt="Green BMW serviced at home location demonstrating mobile convenience"
-                className="w-full h-auto max-h-48 sm:max-h-64 md:max-h-80 object-cover"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                quality={75}
               />
             </motion.div>
 
@@ -976,12 +986,15 @@ const QualityApproachSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mt-12 rounded-xl overflow-hidden shadow-2xl"
+              className="relative mt-12 rounded-xl overflow-hidden shadow-2xl h-48 sm:h-64 md:h-80 lg:h-96"
             >
-              <img
-                src={mercedesImage.src}
+              <Image
+                src={mercedesImage}
                 alt="Close up of Mercedes AMG front bumper showing precision detailing work"
-                className="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 896px"
+                quality={75}
               />
             </motion.div>
           </div>
@@ -1079,6 +1092,7 @@ const EnhancedServiceAreaSection = () => {
         className="object-cover object-center"
         sizes="100vw"
         aria-hidden="true"
+        quality={60}
       />
       <div className="absolute inset-0 bg-black/70" />
 
