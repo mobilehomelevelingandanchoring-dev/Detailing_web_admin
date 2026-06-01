@@ -212,7 +212,7 @@ const HeroSection = () => {
             </div>
             <div className="flex items-center gap-1.5 sm:gap-2">
               <Clock className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />
-              <span>7 Days a Week</span>
+              <span>Available 24/7</span>
             </div>
             <div className="flex items-center gap-1.5 sm:gap-2">
               <Car className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />
@@ -1166,7 +1166,7 @@ const EnhancedServiceAreaSection = () => {
               Whether you're located in a city centre apartment, suburban residential area, business park, or
               industrial estate, we'll confirm suitability when you book. Our Stockport base provides efficient
               access throughout Manchester, allowing flexible scheduling across different areas throughout the week.
-              We operate seven days a week with early morning, daytime, evening, and weekend appointments available.
+              We operate 24/7 with early morning, daytime, evening, and overnight appointments available.
             </p>
           </motion.div>
 
@@ -1256,7 +1256,7 @@ const FinalCTASection = () => {
             transition={{ delay: 0.4 }}
             className="mt-10 text-sm text-muted-foreground"
           >
-            <p>Available 7 days a week • Home and workplace visits • Fully equipped mobile service</p>
+            <p>Available 24/7 • Home and workplace visits • Fully equipped mobile service</p>
           </motion.div>
         </div>
       </div>

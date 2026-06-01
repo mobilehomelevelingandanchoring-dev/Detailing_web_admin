@@ -74,7 +74,7 @@ export default function BookingHeroCarousel() {
           <p className="text-sm text-gray-300 leading-relaxed mb-6">
             Our fully self-contained mobile unit carries its own water, power, and
             professional-grade equipment. Fill out the form below and we&apos;ll confirm your
-            appointment — 7 days a week, 22+ years of expertise.
+            appointment — available 24/7, 22+ years of expertise.
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm text-gray-300 font-medium">
@@ -84,7 +84,7 @@ export default function BookingHeroCarousel() {
             </span>
             <span className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-primary" />
-              7 Days a Week
+              Available 24/7
             </span>
             <span className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-primary" />

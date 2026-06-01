@@ -637,7 +637,7 @@ export const faqTopicsData: FaqTopicData[] = [
       { question: 'How far in advance should I book?', answer: 'We recommend booking 3–7 days in advance for standard services. For large details or ceramic coating work, 1–2 weeks\' notice helps us schedule the time needed. We do accommodate last-minute requests when possible.' },
       { question: 'Can I cancel or reschedule?', answer: 'Yes. We ask for at least 24 hours\' notice for cancellations or reschedules. This allows us to offer the slot to another customer. Same-day cancellations may incur a small fee for large bookings.' },
       { question: 'What happens on the day?', answer: 'We\'ll arrive at the agreed time and location. We\'ll inspect the vehicle with you, confirm the work to be done, and agree on any additional items. You\'re free to leave us to work — we don\'t need you to be present the entire time.' },
-      { question: 'Do you work weekends?', answer: 'Yes. We work 7 days a week to accommodate your schedule. Weekend slots are popular, so we recommend booking early for Saturday or Sunday appointments.' },
+      { question: 'Do you work weekends?', answer: 'Yes — we are available 24/7, including weekends and bank holidays. Weekend and evening slots are popular, so we recommend booking ahead to secure your preferred time.' },
       { question: 'What areas do you cover?', answer: 'We cover all of Greater Manchester and Stockport, including all M and SK postcodes. We are based in Dukinfield, giving us quick access to Manchester city centre, Stockport, Trafford, Sale, Altrincham and surrounding areas.' },
     ],
     relatedLinks: [

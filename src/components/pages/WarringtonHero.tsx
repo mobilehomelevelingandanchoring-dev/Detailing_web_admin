@@ -131,7 +131,7 @@ export function WarringtonHero() {
             </span>
             <span className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-primary" />
-              7 Days a Week
+              Available 24/7
             </span>
             <span className="flex items-center gap-2">
               <Car className="w-4 h-4 text-primary" />

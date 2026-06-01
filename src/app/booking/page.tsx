@@ -58,8 +58,7 @@ export default function BookingPage() {
                   </InfoRow>
 
                   <InfoRow icon={<Clock className="w-4 h-4 text-[#0A5A3B]" />} title="Working Hours">
-                    Mon–Sat: 9 AM – 5 PM<br />
-                    <span className="text-gray-400">Closed Sundays</span>
+                    Open 24/7 — Every Day
                   </InfoRow>
 
                   <InfoRow icon={<Phone className="w-4 h-4 text-[#0A5A3B]" />} title="Contact">

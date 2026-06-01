@@ -1016,7 +1016,7 @@ const BookingSection = () => {
             transition={{ delay: 0.3 }}
             className="mt-10 text-sm text-muted-foreground"
           >
-            <p>Mobile service across Manchester • 7 days a week • Professional equipment • 22 years experience</p>
+            <p>Mobile service across Manchester • Available 24/7 • Professional equipment • 22 years experience</p>
           </motion.div>
         </div>
       </div>
