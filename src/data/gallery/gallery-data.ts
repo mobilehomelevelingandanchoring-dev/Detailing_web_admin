@@ -1,0 +1,193 @@
+import type { GalleryPageData, GalleryItem } from '@/data/types';
+
+const detailingItems: GalleryItem[] = [
+  {
+    id: 'detail-1',
+    title: 'Multi-Stage Paint Correction',
+    description: 'Heavy swirl marks and wash marring removed with a two-stage machine polish, restoring a deep mirror finish.',
+    beforeImage: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-car-polishing-manchester-01.webp.webp',
+    service: 'Paint Correction',
+    vehicle: 'Prestige Saloon',
+    location: 'Manchester',
+  },
+  {
+    id: 'detail-2',
+    title: 'Ceramic Coating — Full Protection Package',
+    description: 'Two-stage correction followed by accredited SiO2 ceramic coating for 5-year paint protection and hydrophobic performance.',
+    beforeImage: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-02.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-ceramic-coating-manchester-stockport-01.webp.webp',
+    service: 'Ceramic Coating',
+    vehicle: 'SUV',
+    location: 'Stockport',
+  },
+  {
+    id: 'detail-3',
+    title: 'Single-Stage Swirl Mark Removal',
+    description: 'Single-stage correction to eliminate wash swirls on dark paintwork, finished with ceramic spray sealant.',
+    beforeImage: '/images/gallery/srv-detailing-ceramic-coating-manchester-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-ceramic-coating-manchester-02.webp.webp',
+    service: 'Swirl Mark Removal',
+    vehicle: 'Saloon',
+    location: 'Didsbury',
+  },
+  {
+    id: 'detail-4',
+    title: 'New Car Ceramic Coating Protection',
+    description: 'Factory defect correction and ceramic coating applied to a new vehicle — protecting the finish from day one.',
+    beforeImage: '/images/gallery/srv-detailing-ceramic-coating-manchester-03.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-ceramic-coating-manchester-05.webp.webp',
+    service: 'New Car Protection',
+    vehicle: 'New Vehicle',
+    location: 'Manchester',
+  },
+  {
+    id: 'detail-5',
+    title: 'Exterior Decontamination Detail',
+    description: 'Full exterior decontamination including iron fallout removal, clay bar, and ceramic sealant for a contaminant-free finish.',
+    beforeImage: '/images/gallery/srv-detailing-exterior-car-detailing-manchester-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
+    service: 'Exterior Detailing',
+    vehicle: 'Hatchback',
+    location: 'Stockport',
+  },
+  {
+    id: 'detail-6',
+    title: 'Interior Deep Detail & Restoration',
+    description: 'Full interior restoration — leather conditioning, hot water extraction on carpets, steam cleaning and trim dressing.',
+    beforeImage: '/images/gallery/srv-detailing-interior-car-cleaning-manchester-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-interior-car-cleaning-manchester-03.webp.webp',
+    service: 'Interior Detailing',
+    vehicle: 'Estate Car',
+    location: 'Manchester',
+  },
+];
+
+const valetingItems: GalleryItem[] = [
+  {
+    id: 'valet-1',
+    title: 'Full Mobile Valet',
+    description: 'Complete interior and exterior valet — snow foam, hand wash, vacuum, wipe-down, and wax protection — all at the customer\'s home.',
+    beforeImage: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-02.webp.webp',
+    service: 'Full Valet',
+    vehicle: 'Family Car',
+    location: 'Manchester',
+  },
+  {
+    id: 'valet-2',
+    title: 'Mobile Exterior Valet',
+    description: 'Pressure wash pre-rinse, snow foam pre-soak, two-bucket hand wash, clay bar, and polymer sealant — no driveway tap required.',
+    beforeImage: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-03.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-04.webp.webp',
+    service: 'Exterior Valeting',
+    vehicle: 'SUV',
+    location: 'Cheadle',
+  },
+  {
+    id: 'valet-3',
+    title: 'Interior Deep Clean',
+    description: 'Interior-only valet with hot water extraction, stain treatment, steam sanitisation, and full leather and trim conditioning.',
+    beforeImage: '/images/gallery/srv-detailing-interior-car-cleaning-manchester-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-interior-car-cleaning-manchester-03.webp.webp',
+    service: 'Interior Valeting',
+    vehicle: 'MPV',
+    location: 'Salford',
+  },
+  {
+    id: 'valet-4',
+    title: 'Mini Valet & Maintenance Wash',
+    description: 'Regular maintenance wash with snow foam, hand wash, wheel clean, tyre dressing, and interior wipe-down.',
+    beforeImage: '/images/gallery/srv-detailing-car-valeting-manchester-02.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-05.webp.webp',
+    service: 'Mini Valet',
+    vehicle: 'Crossover',
+    location: 'Trafford',
+  },
+  {
+    id: 'valet-5',
+    title: 'Mobile Valeting — Driveway Service',
+    description: 'Fully self-contained mobile unit with on-board water and power — professional results delivered to your driveway.',
+    beforeImage: '/images/gallery/srv-detailing-mobile-car-valeting-manchester-stockport-01.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-01.webp.webp',
+    service: 'Mobile Valeting',
+    vehicle: 'Saloon',
+    location: 'Stockport',
+  },
+  {
+    id: 'valet-6',
+    title: 'Fleet Valet — Multiple Vehicles',
+    description: 'Regular fleet valeting package covering multiple company vehicles, scheduled around business hours.',
+    beforeImage: '/images/gallery/mobile-van.webp.webp',
+    afterImage: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-02.webp.webp',
+    service: 'Fleet Valeting',
+    vehicle: 'Company Fleet',
+    location: 'Manchester',
+  },
+];
+
+export const detailingGalleryData: GalleryPageData = {
+  slug: 'detailing',
+  title: 'Car Detailing Gallery',
+  seo: {
+    title: 'Car Detailing Gallery — Before & After Results | SRV Detailing Manchester',
+    description:
+      'Browse our car detailing portfolio. Before and after photos of paint correction, ceramic coating, and interior detailing in Manchester and Stockport. 22 years of professional results.',
+    keywords: [
+      'car detailing results Manchester',
+      'before and after detailing',
+      'paint correction Manchester',
+      'ceramic coating photos Stockport',
+      'detailing portfolio Greater Manchester',
+    ],
+    canonical: 'https://www.srvdetailing.co.uk/gallery/detailing',
+  },
+  breadcrumbs: [
+    { label: 'Home', href: '/' },
+    { label: 'Gallery', href: '/gallery' },
+    { label: 'Detailing', href: '/gallery/detailing' },
+  ],
+  heroTitle: 'Car Detailing Gallery',
+  heroDescription:
+    'Before and after transformations from our professional car detailing services — paint correction, ceramic coating, and interior restoration across Manchester & Stockport.',
+  items: detailingItems,
+  relatedLinks: [
+    { label: 'Car Detailing Manchester', href: '/manchester/car-detailing', description: 'Our Manchester detailing services' },
+    { label: 'Ceramic Coating Manchester', href: '/manchester/car-detailing/ceramic-coating', description: 'Ceramic coating protection' },
+    { label: 'Car Detailing Stockport', href: '/stockport/car-detailing', description: 'Our Stockport detailing services' },
+    { label: 'Book Now', href: '/booking', description: 'Book your detail' },
+  ],
+};
+
+export const valetingGalleryData: GalleryPageData = {
+  slug: 'valeting',
+  title: 'Car Valeting Gallery',
+  seo: {
+    title: 'Car Valeting Gallery — Before & After Results | SRV Detailing Manchester',
+    description:
+      'See our car valeting results. Before and after photos of full valets, interior cleans, and mobile valeting in Manchester and Stockport. Professional, fully mobile service.',
+    keywords: [
+      'car valeting results Manchester',
+      'before and after valet',
+      'mobile valeting Stockport',
+      'full valet Manchester',
+      'interior clean photos Greater Manchester',
+    ],
+    canonical: 'https://www.srvdetailing.co.uk/gallery/valeting',
+  },
+  breadcrumbs: [
+    { label: 'Home', href: '/' },
+    { label: 'Gallery', href: '/gallery' },
+    { label: 'Valeting', href: '/gallery/valeting' },
+  ],
+  heroTitle: 'Car Valeting Gallery',
+  heroDescription:
+    'Before and after transformations from our professional mobile valeting services — full valets, interior deep cleans, and specialist treatments across Manchester & Stockport.',
+  items: valetingItems,
+  relatedLinks: [
+    { label: 'Car Valeting Manchester', href: '/manchester/car-valeting', description: 'Our Manchester valeting services' },
+    { label: 'Car Valeting Stockport', href: '/stockport/car-valeting', description: 'Our Stockport valeting services' },
+    { label: 'Valeting Prices', href: '/pricing/car-valeting', description: 'View pricing' },
+    { label: 'Book Now', href: '/booking', description: 'Book your valet' },
+  ],
+};
