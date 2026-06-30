@@ -15,8 +15,7 @@ export const warringtonCarValetingPillar: PillarPageData = {
       'car wash warrington',
       'professional valeting warrington',
     ],
-    canon
-    ical: 'https://www.srvdetailing.co.uk/warrington/car-valeting',
+    canonical: 'https://www.srvdetailing.co.uk/warrington/car-valeting',
   },
   breadcrumbs: [
     { label: 'Home', href: '/' },
