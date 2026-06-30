@@ -60,13 +60,13 @@ export const ceramicCoatingManchester: ServicePageData = {
     {
       type: 'text',
       heading: 'Ceramic Coating Packages',
-      body: 'We offer three tiers of ceramic coating to suit different budgets and protection needs. Entry-level packages (£300–£400) provide 2-year protection with good hydrophobic properties. Mid-range packages (£500–£700) deliver 3–4 year protection with excellent chemical resistance. Premium packages (£800–£1,200+) provide 5–7+ years of maximum protection with the deepest gloss and hardest coating available.',
+      body: 'We offer three tiers of ceramic coating to suit different budgets and protection needs. Entry-level packages (£300–£400) provide 3-year protection with good hydrophobic properties. Mid-range packages (£500–£700) deliver 3–4 year protection with excellent chemical resistance. Premium packages (£800–£1,200+) provide 5–7+ years of maximum protection with the deepest gloss and hardest coating available.',
     },
   ],
   faqs: [
     {
       question: 'How long does ceramic coating last?',
-      answer: 'Depending on the package chosen, ceramic coatings last between 2 and 7+ years. Durability depends on the product tier, maintenance routine, and environmental exposure. We provide full aftercare guidance to maximise longevity.',
+      answer: 'Depending on the package chosen, ceramic coatings last between 3 and 7+ years. Durability depends on the product tier, maintenance routine, and environmental exposure. We provide full aftercare guidance to maximise longevity.',
     },
     {
       question: 'Is paint correction necessary before ceramic coating?',
@@ -78,7 +78,7 @@ export const ceramicCoatingManchester: ServicePageData = {
     },
     {
       question: 'How much does ceramic coating cost in Manchester?',
-      answer: 'Our ceramic coating packages start from £300 for entry-level 2-year protection, rising to £800–£1,200+ for premium 5–7+ year coatings. The final price depends on vehicle size and paint condition. Contact us for an exact quote.',
+      answer: 'Our ceramic coating packages start from £300 for entry-level 3-year protection, rising to £800–£1,200+ for premium 5–7+ year coatings. The final price depends on vehicle size and paint condition. Contact us for an exact quote.',
     },
     {
       question: 'Do you need to maintain a ceramic coating?',

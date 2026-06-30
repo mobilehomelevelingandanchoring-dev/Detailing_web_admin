@@ -46,7 +46,7 @@ export const detailingPricing: PricingPageData = {
         'Full decontamination wash',
         'Clay bar treatment',
         'Two-stage machine polish (cutting + refining)',
-        '2-year ceramic coating',
+        '3-year ceramic coating',
         'Wheel face coating',
         'Glass coating',
         'Interior deep clean',

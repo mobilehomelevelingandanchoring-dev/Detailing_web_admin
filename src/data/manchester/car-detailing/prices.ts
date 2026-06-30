@@ -24,7 +24,7 @@ export const detailingPricesManchester: ServicePageData = {
       type: 'list',
       heading: 'Our Detailing Price Guide',
       items: [
-        'Ceramic Coating: from £300 (entry-level 2-year) to £1,200+ (premium 7+ year)',
+        'Ceramic Coating: from £300 (entry-level 3-year) to £1,200+ (premium 7+ year)',
         'Paint Correction: from £250 (single-stage) to £500+ (multi-stage)',
         'Interior Detailing: from £150 (standard) to £300+ (full restoration)',
         'Exterior Detailing: from £200 (decontamination + polish) to £400+ (full correction)',

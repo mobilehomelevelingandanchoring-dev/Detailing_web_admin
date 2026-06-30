@@ -72,7 +72,7 @@ export const ceramicCoatingStockport: ServicePageData = {
       type: 'list',
       heading: 'Ceramic Coating Packages',
       items: [
-        'Entry-Level (from £300): 2-year protection with excellent hydrophobic effect — ideal for daily drivers wanting long-term wash ease',
+        'Entry-Level (from £300): 3-year protection with excellent hydrophobic effect — ideal for daily drivers wanting long-term wash ease',
         'Mid-Range (from £500): 3–4 year protection with enhanced chemical resistance and deeper gloss enhancement',
         'Premium (from £800): 5–7+ year protection with maximum hardness rating, UV defence, and full scratch resistance layer',
         'All packages include full decontamination, clay bar, and at minimum a single-stage paint correction',
@@ -107,7 +107,7 @@ export const ceramicCoatingStockport: ServicePageData = {
     {
       question: 'How long does ceramic coating last in Stockport?',
       answer:
-        'Our packages range from 2-year entry level to 7+ year premium coatings. Longevity depends on the product tier and how the vehicle is maintained. Regular pH-neutral washing and avoiding automatic car washes significantly extends coating life. Greater Manchester\'s wet climate actually helps — water sheeting off the coating keeps the surface cleaner between washes.',
+        'Our packages range from 3-year entry level to 7+ year premium coatings. Longevity depends on the product tier and how the vehicle is maintained. Regular pH-neutral washing and avoiding automatic car washes significantly extends coating life. Greater Manchester\'s wet climate actually helps — water sheeting off the coating keeps the surface cleaner between washes.',
     },
     {
       question: 'Will ceramic coating prevent scratches?',
@@ -117,7 +117,7 @@ export const ceramicCoatingStockport: ServicePageData = {
     {
       question: 'How much does ceramic coating cost in Stockport?',
       answer:
-        'Packages start from £300 for a 2-year entry-level coating including decontamination and single-stage correction. Mid-range (3–4 years) from £500. Premium (5–7+ years) from £800. Exact price depends on vehicle size and paint condition — contact us for a quote.',
+        'Packages start from £300 for a 3-year entry-level coating including decontamination and single-stage correction. Mid-range (3–4 years) from £500. Premium (5–7+ years) from £800. Exact price depends on vehicle size and paint condition — contact us for a quote.',
     },
     {
       question: 'Can you apply ceramic coating at my home in Stockport?',

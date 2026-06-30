@@ -60,14 +60,14 @@ export const ceramicCoatingWarrington: ServicePageData = {
     {
       type: 'text',
       heading: 'Ceramic Coating Packages',
-      body: 'We offer three tiers of ceramic coating to suit different budgets and protection requirements. Entry-level packages (£300–£400) provide 2-year protection with excellent hydrophobic properties. Mid-range packages (£500–£700) deliver 3–4 year protection with superior chemical resistance. Premium packages (£800–£1,200+) offer 5–7+ years of maximum protection with the deepest gloss and hardest coating available.',
+      body: 'We offer three tiers of ceramic coating to suit different budgets and protection requirements. Entry-level packages (£300–£400) provide 3-year protection with excellent hydrophobic properties. Mid-range packages (£500–£700) deliver 3–4 year protection with superior chemical resistance. Premium packages (£800–£1,200+) offer 5–7+ years of maximum protection with the deepest gloss and hardest coating available.',
     },
   ],
   faqs: [
     {
       question: 'How long does ceramic coating last in Warrington conditions?',
       answer:
-        "Ceramic coatings last between 2 and 7+ years depending on the package chosen. Warrington's heavy motorway exposure means proper maintenance is important — we provide full aftercare guidance and pH-neutral maintenance products to maximise longevity.",
+        "Ceramic coatings last between 3 and 7+ years depending on the package chosen. Warrington's heavy motorway exposure means proper maintenance is important — we provide full aftercare guidance and pH-neutral maintenance products to maximise longevity.",
     },
     {
       question: 'Is paint correction necessary before ceramic coating?',
@@ -82,7 +82,7 @@ export const ceramicCoatingWarrington: ServicePageData = {
     {
       question: 'How much does ceramic coating cost in Warrington?',
       answer:
-        'Packages start from £300 for entry-level 2-year protection, rising to £800–£1,200+ for premium 5–7+ year coatings. Final price depends on vehicle size and paint condition. Contact us for an exact quote.',
+        'Packages start from £300 for entry-level 3-year protection, rising to £800–£1,200+ for premium 5–7+ year coatings. Final price depends on vehicle size and paint condition. Contact us for an exact quote.',
     },
     {
       question: 'How do I maintain a ceramic coating?',

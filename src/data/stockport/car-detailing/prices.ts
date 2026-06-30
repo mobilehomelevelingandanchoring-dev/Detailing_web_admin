@@ -24,7 +24,7 @@ export const stockportDetailingPrices: ServicePageData = {
       type: 'list',
       heading: 'Stockport Detailing Price Guide',
       items: [
-        'Ceramic Coating: from £300 (2-year) to £1,200+ (7+ year)',
+        'Ceramic Coating: from £300 (3-year) to £1,200+ (7+ year)',
         'Paint Correction: from £250 (single-stage) to £500+ (multi-stage)',
         'New Car Protection: from £300 (coating) to £800+ (full package)',
         'Headlight Restoration: from £60 per pair',
