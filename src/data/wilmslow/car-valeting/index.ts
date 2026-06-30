@@ -39,7 +39,7 @@ export const wilmslowCarValetingPillar: PillarPageData = {
     },
     {
       slug: 'mini-valet',
-      name: 'Mini Valet',
+      name: 'Maintenance Valet',
       description: 'Quick maintenance clean in 60–90 minutes. Perfect between full valets.',
       icon: Droplets,
       href: '/wilmslow/car-valeting/mini-valet',
@@ -126,7 +126,7 @@ export const wilmslowCarValetingPillar: PillarPageData = {
     {
       question: 'How much does a car valet cost in Wilmslow?',
       answer:
-        'Mini valets from £50, full valets from £120. Prices vary by vehicle size and condition. Contact us for a transparent quote — no hidden charges.',
+        'Maintenance valets from £45, full valets from £90. Prices vary by vehicle size and condition. Contact us for a transparent quote — no hidden charges.',
     },
     {
       question: 'Do you cover all areas of Wilmslow and SK9?',
@@ -146,12 +146,12 @@ export const wilmslowCarValetingPillar: PillarPageData = {
     {
       question: 'How often should I get my car valeted in Wilmslow?',
       answer:
-        'For daily drivers in Wilmslow, a mini valet every 4–6 weeks and a full valet every 3–4 months is ideal. Winter months with A34 road salt benefit from more frequent decontamination washes. Prestige vehicles with ceramic coatings require less frequent deep cleaning but still benefit from regular maintenance.',
+        'For daily drivers in Wilmslow, a maintenance valet every 4–6 weeks and a full valet every 3–4 months is ideal. Winter months with A34 road salt benefit from more frequent decontamination washes. Prestige vehicles with ceramic coatings require less frequent deep cleaning but still benefit from regular maintenance.',
     },
   ],
   relatedLinks: [
     { label: 'Full Valet Wilmslow', href: '/wilmslow/car-valeting/full-valet', description: 'Complete interior and exterior valet' },
-    { label: 'Mini Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Quick maintenance clean' },
+    { label: 'Maintenance Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Quick maintenance clean' },
     { label: 'Mobile Valeting Wilmslow', href: '/wilmslow/car-valeting/mobile-valeting', description: 'We come to your door' },
     { label: 'Car Detailing Wilmslow', href: '/wilmslow/car-detailing', description: 'Restoration-grade paint services' },
     { label: 'Paint Correction Wilmslow', href: '/wilmslow/car-detailing/paint-correction', description: 'Remove swirl marks and scratches' },

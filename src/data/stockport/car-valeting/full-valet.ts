@@ -26,7 +26,7 @@ export const fullValetStockport: ServicePageData = {
       heading: 'What Is a Full Car Valet?',
       bodyParagraphs: [
         'A full car valet is the most comprehensive cleaning and presentation service available short of professional detailing. It combines a thorough exterior clean — snow foam pre-wash, two-bucket hand wash, wheel decontamination, drying and wax protection — with a comprehensive interior treatment including deep vacuuming, upholstery cleaning, dashboard and trim care, glass cleaning, and odour neutralisation. The result is a vehicle that looks and feels completely fresh, inside and out.',
-        'Unlike a mini valet (which is a maintenance service) or an exterior-only wash, a full valet is restorative. It is the service you book when your car has accumulated weeks or months of daily use across Stockport\'s road network and its interior needs proper attention — not just a quick wipe. It is also the standard preparation before private sale, dealer part-exchange, or seasonal refreshes between summer and winter.',
+        'Unlike a maintenance valet (which is a maintenance service) or an exterior-only wash, a full valet is restorative. It is the service you book when your car has accumulated weeks or months of daily use across Stockport\'s road network and its interior needs proper attention — not just a quick wipe. It is also the standard preparation before private sale, dealer part-exchange, or seasonal refreshes between summer and winter.',
         'SRV Detailing carries out full valets using a mobile, fully self-contained unit. We bring our own water supply, generator, professional equipment, and chemicals. You provide nothing except access to your vehicle. The service is available across all SK postcodes, 7 days a week, at your home or workplace.',
       ],
     },
@@ -83,7 +83,7 @@ export const fullValetStockport: ServicePageData = {
       type: 'text',
       heading: 'When Stockport Drivers Book a Full Valet',
       bodyParagraphs: [
-        'Most SRV Detailing customers across Stockport book a full valet two to four times per year — typically at the start of spring (after the salt season), ahead of summer, at the end of summer (to clean up tree sap and pollen), and heading into winter. Between these full valets, a mini valet or maintenance wash every four to six weeks keeps the vehicle in good condition without a full investment of time and cost.',
+        'Most SRV Detailing customers across Stockport book a full valet two to four times per year — typically at the start of spring (after the salt season), ahead of summer, at the end of summer (to clean up tree sap and pollen), and heading into winter. Between these full valets, a maintenance valet or maintenance wash every four to six weeks keeps the vehicle in good condition without a full investment of time and cost.',
         'The most common booking triggers are vehicle sale or part-exchange preparation, returning from a long trip or holiday, a seasonal reset after winter, and the point at which the interior has accumulated enough use to need more than a casual clean. A full valet in Stockport is a tangible, same-day transformation — when SRV Detailing leaves your driveway, your car looks substantially different to when we arrived.',
       ],
     },
@@ -102,10 +102,10 @@ export const fullValetStockport: ServicePageData = {
     },
     {
       type: 'comparison',
-      heading: 'Full Valet vs Mini Valet: Which Do You Need?',
+      heading: 'Full Valet vs Maintenance Valet: Which Do You Need?',
       body: 'Both services are professional, hand-finished, and delivered to your Stockport door. The decision depends on how much interior attention your vehicle needs and how long it has been since its last proper clean.',
       comparison: {
-        headers: ['Aspect', 'Full Valet', 'Mini Valet'],
+        headers: ['Aspect', 'Full Valet', 'Maintenance Valet'],
         rows: [
           ['Time required', '3–4 hours (up to 5 for large/soiled vehicles)', '60–90 minutes'],
           ['Exterior wash', 'Snow foam, hand wash, wheel decontamination, wax', 'Hand wash, wheel clean, tyre dressing'],
@@ -113,7 +113,7 @@ export const fullValetStockport: ServicePageData = {
           ['Dashboard and trim', 'Full clean and protectant treatment on all surfaces', 'Quick wipe of dashboard and console'],
           ['Upholstery', 'Spot cleaning of stains, leather conditioning where applicable', 'Surface wipe only'],
           ['Glass', 'Interior and exterior streak-free clean', 'Interior quick clean only'],
-          ['Price from', '£120', '£50'],
+          ['Price from', '£90', '£45'],
           ['Best for', 'Quarterly deep clean, pre-sale prep, post-winter reset', 'Monthly maintenance, keeping a clean car clean'],
         ],
       },
@@ -134,7 +134,7 @@ export const fullValetStockport: ServicePageData = {
     },
     {
       question: 'How often should I get a full valet?',
-      answer: 'For most Stockport drivers, a full valet every 2 to 3 months is ideal — approximately quarterly. Between full valets, a mini valet every 4 to 6 weeks maintains the vehicle\'s condition efficiently. Drivers on the A6 or M60 daily, or those with children or pets, often benefit from a slightly higher frequency.',
+      answer: 'For most Stockport drivers, a full valet every 2 to 3 months is ideal — approximately quarterly. Between full valets, a maintenance valet every 4 to 6 weeks maintains the vehicle\'s condition efficiently. Drivers on the A6 or M60 daily, or those with children or pets, often benefit from a slightly higher frequency.',
     },
     {
       question: 'What is the difference between a full valet and car detailing?',
@@ -150,7 +150,7 @@ export const fullValetStockport: ServicePageData = {
     },
     {
       question: 'How much does a full valet cost in Stockport?',
-      answer: 'Full valets start from £120 for a standard hatchback or saloon. Larger vehicles — estates, SUVs, MPVs, and vans — start from £150. We provide exact quotes when booking, based on vehicle size and condition. There are no hidden charges or call-out fees for customers within SK postcodes.',
+      answer: 'Full valets start from £90 for a standard hatchback or saloon. Larger vehicles — estates, SUVs, MPVs, and vans — start from £150. We provide exact quotes when booking, based on vehicle size and condition. There are no hidden charges or call-out fees for customers within SK postcodes.',
     },
     {
       question: 'Is a full valet worth it before selling my car?',
@@ -162,7 +162,7 @@ export const fullValetStockport: ServicePageData = {
     },
   ],
   relatedLinks: [
-    { label: 'Mini Valet Stockport', href: '/stockport/car-valeting/mini-valet', description: 'Quick 60–90 minute maintenance clean between full valets' },
+    { label: 'Maintenance Valet Stockport', href: '/stockport/car-valeting/mini-valet', description: 'Quick 60–90 minute maintenance clean between full valets' },
     { label: 'Interior Valeting Stockport', href: '/stockport/car-valeting/interior-valeting', description: 'Interior-only deep clean when the outside is fine' },
     { label: 'Exterior Valeting Stockport', href: '/stockport/car-valeting/exterior-valeting', description: 'Exterior-only service when the inside is clean' },
     { label: 'Upholstery Cleaning Stockport', href: '/stockport/car-valeting/upholstery-cleaning', description: 'Hot water extraction for stubborn seat and carpet stains' },
@@ -170,5 +170,5 @@ export const fullValetStockport: ServicePageData = {
     { label: 'Exterior Detailing Stockport', href: '/stockport/car-detailing/exterior-detailing', description: 'Paint decontamination, correction, and ceramic protection' },
     { label: 'Car Valeting Stockport', href: '/stockport/car-valeting', description: 'All valeting services across Stockport and SK postcodes' },
   ],
-  schemaPrice: '120',
+  schemaPrice: '90',
 };

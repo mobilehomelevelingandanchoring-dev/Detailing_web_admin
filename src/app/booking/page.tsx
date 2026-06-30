@@ -73,8 +73,8 @@ export default function BookingPage() {
 
                   <InfoRow icon={<Car className="w-4 h-4 text-[#0A5A3B]" />} title="Popular Services">
                     <ul className="space-y-0.5 text-gray-600 mt-0.5">
-                      <li>Full Valet — <strong>£60</strong></li>
-                      <li>Mini Valet — <strong>£40</strong></li>
+                      <li>Full Valet — <strong>£90</strong></li>
+                      <li>Maintenance Valet — <strong>£45</strong></li>
                       <li>Car Detailing — <strong>£120</strong></li>
                       <li>Ceramic Coating — <strong>£300</strong></li>
                       <li>Paint Correction — <strong>£250</strong></li>

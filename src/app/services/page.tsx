@@ -294,7 +294,7 @@ const ValetingServicesSection = () => {
             </motion.div>
           </motion.div>
 
-          {/* Standard Valet */}
+          {/* Maintenance Valet */}
           <div className="mb-12">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -304,7 +304,7 @@ const ValetingServicesSection = () => {
             >
               <div className="flex items-center gap-3 mb-4">
                 <Car className="w-8 h-8 text-primary" />
-                <h3 className="text-2xl sm:text-3xl font-bold text-foreground">Standard Valet</h3>
+                <h3 className="text-2xl sm:text-3xl font-bold text-foreground">Maintenance Valet</h3>
               </div>
               <p className="text-lg font-semibold text-primary mb-4">From £45</p>
               <p className="text-muted-foreground mb-6">
@@ -360,7 +360,7 @@ const ValetingServicesSection = () => {
                 <Sparkles className="w-8 h-8 text-primary" />
                 <h3 className="text-2xl sm:text-3xl font-bold text-foreground">Full Valet</h3>
               </div>
-              <p className="text-lg font-semibold text-primary mb-4">From £120</p>
+              <p className="text-lg font-semibold text-primary mb-4">From £90</p>
               <p className="text-muted-foreground mb-6">
                 Comprehensive cleaning including all standard valet services plus deep interior cleaning,
                 upholstery treatment, and protective wax application. Ideal for thorough seasonal cleaning
@@ -892,8 +892,8 @@ const ProcessSection = () => {
 // Pricing Guide Section
 const PricingGuideSection = () => {
   const services = [
-    { name: "Standard Valet", price: "From £45", duration: "1-2 hours" },
-    { name: "Full Valet", price: "From £120", duration: "3-4 hours" },
+    { name: "Maintenance Valet", price: "From £45", duration: "1-2 hours" },
+    { name: "Full Valet", price: "From £90", duration: "3-4 hours" },
     { name: "Paint Correction (Single Stage)", price: "From £250", duration: "1 day" },
     { name: "Paint Correction (Multi Stage)", price: "From £450", duration: "2-3 days" },
     { name: "Ceramic Coating Package", price: "From £499", duration: "2-4 days" }

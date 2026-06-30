@@ -19,8 +19,8 @@ const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const SERVICES = [
   { value: '', label: 'Select a service' },
-  { value: 'Full Valet', label: 'Full Valet - £60' },
-  { value: 'Mini Valet', label: 'Mini Valet - £40' },
+  { value: 'Full Valet', label: 'Full Valet - £90' },
+  { value: 'Maintenance Valet', label: 'Maintenance Valet - £45' },
   { value: 'Car Detailing', label: 'Car Detailing - £120' },
   { value: 'Interior Valeting', label: 'Interior Valeting - £50' },
   { value: 'Exterior Valeting', label: 'Exterior Valeting - £45' },

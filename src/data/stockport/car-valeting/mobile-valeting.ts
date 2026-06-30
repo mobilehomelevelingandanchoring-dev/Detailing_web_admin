@@ -221,12 +221,12 @@ export const mobileValetingStockport: ServicePageData = {
     {
       question: 'How much does mobile car valeting cost in Stockport?',
       answer:
-        'Mobile car valeting in Stockport starts from £50 for a mini valet (exterior wash, wheel clean, tyre dressing, and interior vacuum) and from £90 for a full valet covering comprehensive exterior and interior treatment. Pricing varies by vehicle size — a large SUV, MPV, or van requires more time and product than a small hatchback. Contact SRV Detailing for a personalised quote based on your vehicle type and current condition.',
+        'Mobile car valeting in Stockport starts from £45 for a maintenance valet (exterior wash, wheel clean, tyre dressing, and interior vacuum) and from £90 for a full valet covering comprehensive exterior and interior treatment. Pricing varies by vehicle size — a large SUV, MPV, or van requires more time and product than a small hatchback. Contact SRV Detailing for a personalised quote based on your vehicle type and current condition.',
     },
     {
       question: 'How long does a mobile car valet take in Stockport?',
       answer:
-        'A mini valet typically takes between 1 and 1.5 hours. A full valet — covering all exterior and interior surfaces to a professional standard — generally takes between 2.5 and 4 hours, depending on vehicle size and how heavily soiled it is. We always give an honest time estimate before starting and communicate clearly if additional time is needed.',
+        'A maintenance valet typically takes between 1 and 1.5 hours. A full valet — covering all exterior and interior surfaces to a professional standard — generally takes between 2.5 and 4 hours, depending on vehicle size and how heavily soiled it is. We always give an honest time estimate before starting and communicate clearly if additional time is needed.',
     },
     {
       question: 'Do you need water or electricity at my address?',
@@ -234,9 +234,9 @@ export const mobileValetingStockport: ServicePageData = {
         'No. Our mobile unit carries its own fresh water tank and an onboard power generator. We require nothing from you except access to your vehicle and a parking space to work alongside it. This makes us genuinely suitable for flats, workplaces, communal parking areas, and any location that lacks outdoor water access.',
     },
     {
-      question: 'What is the difference between a mini valet and a full valet?',
+      question: 'What is the difference between a maintenance valet and a full valet?',
       answer:
-        'A mini valet covers the exterior hand wash, wheel clean, tyre dressing, interior vacuum, and a quick wipe of dashboard surfaces. A full valet is substantially more comprehensive: it includes a thorough interior deep clean of all surfaces, seats, carpets, boot, door cards, steering wheel, console, and glass — alongside all exterior processes including snow foam pre-wash, hand wash, wheel decontamination, and trim dressing. Add-on services such as clay bar decontamination, leather conditioning, odour removal, and upholstery cleaning are available on request.',
+        'A maintenance valet covers the exterior hand wash, wheel clean, tyre dressing, interior vacuum, and a quick wipe of dashboard surfaces. A full valet is substantially more comprehensive: it includes a thorough interior deep clean of all surfaces, seats, carpets, boot, door cards, steering wheel, console, and glass — alongside all exterior processes including snow foam pre-wash, hand wash, wheel decontamination, and trim dressing. Add-on services such as clay bar decontamination, leather conditioning, odour removal, and upholstery cleaning are available on request.',
     },
     {
       question: 'Can you valet my car in cold or wet weather in Stockport?',
@@ -251,7 +251,7 @@ export const mobileValetingStockport: ServicePageData = {
     {
       question: 'How often should I get my car valeted in Stockport?',
       answer:
-        'For most Stockport drivers, a full valet every 2 to 3 months combined with a mini valet or maintenance wash every 4 to 6 weeks provides a good protection and presentation schedule. Vehicles used daily on heavy-traffic roads such as the A6 or M60, those transporting pets or children, and vehicles parked outdoors without a garage will benefit from more frequent professional cleaning. The Greater Manchester climate — with its above-average rainfall and winter road salting — makes regular removal of salt, iron, and organic contamination more important than in drier parts of the UK.',
+        'For most Stockport drivers, a full valet every 2 to 3 months combined with a maintenance valet or maintenance wash every 4 to 6 weeks provides a good protection and presentation schedule. Vehicles used daily on heavy-traffic roads such as the A6 or M60, those transporting pets or children, and vehicles parked outdoors without a garage will benefit from more frequent professional cleaning. The Greater Manchester climate — with its above-average rainfall and winter road salting — makes regular removal of salt, iron, and organic contamination more important than in drier parts of the UK.',
     },
     {
       question: 'Do you cover Cheadle Hulme, Bramhall, Hazel Grove, and other Stockport areas?',
@@ -277,7 +277,7 @@ export const mobileValetingStockport: ServicePageData = {
       description: 'Comprehensive exterior and interior clean for a showroom finish',
     },
     {
-      label: 'Mini Valet Stockport',
+      label: 'Maintenance Valet Stockport',
       href: '/stockport/car-valeting/mini-valet',
       description: 'Quick exterior wash and interior refresh — ideal for regular maintenance',
     },

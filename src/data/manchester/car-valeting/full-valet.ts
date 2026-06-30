@@ -57,7 +57,7 @@ export const fullValetManchester: ServicePageData = {
     },
     {
       question: 'How much does a full valet cost in Manchester?',
-      answer: 'Full valets start from £120 for a standard car. Prices increase for larger vehicles (SUVs, vans). Contact us for an exact quote for your vehicle.',
+      answer: 'Full valets start from £90 for a standard car. Prices increase for larger vehicles (SUVs, vans). Contact us for an exact quote for your vehicle.',
     },
     {
       question: 'Is a full valet different from car detailing?',
@@ -65,7 +65,7 @@ export const fullValetManchester: ServicePageData = {
     },
     {
       question: 'How often should I get a full valet?',
-      answer: 'Every 4–6 weeks for most vehicles. If you have a ceramic coating, every 6–8 weeks with a maintenance wash between visits. Monthly mini valets between full valets keep things fresh.',
+      answer: 'Every 4–6 weeks for most vehicles. If you have a ceramic coating, every 6–8 weeks with a maintenance wash between visits. Monthly maintenance valets between full valets keep things fresh.',
     },
   ],
   relatedLinks: [
@@ -74,5 +74,5 @@ export const fullValetManchester: ServicePageData = {
     { label: 'Car Valeting Manchester', href: '/manchester/car-valeting', description: 'All valeting packages' },
     { label: 'Valeting Prices', href: '/pricing/car-valeting', description: 'View all pricing' },
   ],
-  schemaPrice: '120',
+  schemaPrice: '90',
 };

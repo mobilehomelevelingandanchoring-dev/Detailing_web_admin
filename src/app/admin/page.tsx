@@ -14,7 +14,7 @@ interface Booking {
   phone: string;
   email: string;
   address?: string;
-  service: 'Car Wash' | 'Car Detailing' | 'Ceramic Coating' | 'Paint Correction' | 'Interior Detailing' | 'Exterior Detailing' | 'Engine Bay Detailing' | 'Headlight Restoration' | 'Leather Conditioning' | 'Swirl Mark Removal' | 'New Car Protection' | 'Full Valet' | 'Mini Valet' | 'Mobile Valeting' | 'Interior Valeting' | 'Exterior Valeting' | 'Pet Hair Removal' | 'Odour Removal' | 'Upholstery Cleaning' | string;
+  service: 'Car Wash' | 'Car Detailing' | 'Ceramic Coating' | 'Paint Correction' | 'Interior Detailing' | 'Exterior Detailing' | 'Engine Bay Detailing' | 'Headlight Restoration' | 'Leather Conditioning' | 'Swirl Mark Removal' | 'New Car Protection' | 'Full Valet' | 'Maintenance Valet' | 'Mobile Valeting' | 'Interior Valeting' | 'Exterior Valeting' | 'Pet Hair Removal' | 'Odour Removal' | 'Upholstery Cleaning' | string;
   date: string;
   time: string;
   notes: string;
@@ -724,7 +724,7 @@ const AdminDashboard = () => {
                 <option value="Swirl Mark Removal">Swirl Mark Removal</option>
                 <option value="New Car Protection">New Car Protection</option>
                 <option value="Full Valet">Full Valet</option>
-                <option value="Mini Valet">Mini Valet</option>
+                <option value="Maintenance Valet">Maintenance Valet</option>
                 <option value="Mobile Valeting">Mobile Valeting</option>
                 <option value="Interior Valeting">Interior Valeting</option>
                 <option value="Exterior Valeting">Exterior Valeting</option>

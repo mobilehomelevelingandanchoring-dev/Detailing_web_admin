@@ -143,7 +143,7 @@ export const poyntonCarValetingPillar: PillarPageData = {
     {
       question: 'How much does a car valet cost in Poynton?',
       answer:
-        "Mini valets start from £50 for a standard car. Full valets from £120. Larger vehicles like SUVs and estates from £150 for a full valet. We give exact quotes when you book — no hidden charges or travel fees for SK12.",
+        "Maintenance valets start from £45 for a standard car. Full valets from £90. Larger vehicles like SUVs and estates from £130 for a full valet. We give exact quotes when you book — no hidden charges or travel fees for SK12.",
     },
     {
       question: 'How long does a full valet take in Poynton?',

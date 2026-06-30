@@ -95,7 +95,7 @@ export const mobileValetingPoynton: ServicePageData = {
     {
       question: 'How much does mobile valeting cost in Poynton?',
       answer:
-        "Mini valets from £50, full valets from £120 for a standard vehicle. All our valeting services are mobile — there's no extra charge for coming to you in SK12.",
+        "Maintenance valets from £45, full valets from £90 for a standard vehicle. All our valeting services are mobile — there's no extra charge for coming to you in SK12.",
     },
     {
       question: 'How do I book mobile valeting in Poynton?',

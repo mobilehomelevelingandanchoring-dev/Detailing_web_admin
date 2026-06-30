@@ -26,7 +26,7 @@ export const manchesterCarValetingPillar: PillarPageData = {
   heroDescription:
     'Regular professional cleaning that keeps your car looking fresh, comfortable and well-maintained. Hand-wash only, premium products, delivered to your door anywhere across Greater Manchester.',
   introText:
-    'Car valeting is professional-grade cleaning and maintenance for your vehicle. Unlike a quick car wash, our valeting service uses safe hand-wash techniques, pH-neutral products, and meticulous attention to every surface. We offer packages from a quick 60-minute mini valet to a comprehensive 3–4 hour full valet — all delivered to your location by our fully equipped mobile unit.',
+    'Car valeting is professional-grade cleaning and maintenance for your vehicle. Unlike a quick car wash, our valeting service uses safe hand-wash techniques, pH-neutral products, and meticulous attention to every surface. We offer packages from a quick 60-minute maintenance valet to a comprehensive 3–4 hour full valet — all delivered to your location by our fully equipped mobile unit.',
   services: [
     {
       slug: 'full-valet',
@@ -37,7 +37,7 @@ export const manchesterCarValetingPillar: PillarPageData = {
     },
     {
       slug: 'mini-valet',
-      name: 'Mini Valet',
+      name: 'Maintenance Valet',
       description: 'Quick maintenance clean in 60 to 90 minutes. Perfect between full valets to keep your car fresh.',
       icon: Droplets,
       href: '/manchester/car-valeting/mini-valet',
@@ -84,11 +84,11 @@ export const manchesterCarValetingPillar: PillarPageData = {
   faqs: [
     {
       question: 'How often should I get my car valeted?',
-      answer: 'For most vehicles, a full valet every 4–6 weeks keeps your car in excellent condition. Between full valets, a monthly mini valet maintains the finish. If your car is ceramic coated, quarterly valeting with a maintenance wash is sufficient.',
+      answer: 'For most vehicles, a full valet every 4–6 weeks keeps your car in excellent condition. Between full valets, a monthly maintenance valet maintains the finish. If your car is ceramic coated, quarterly valeting with a maintenance wash is sufficient.',
     },
     {
       question: 'What is the difference between a full valet and a mini valet?',
-      answer: 'A full valet (3–4 hours) includes complete interior deep clean, exterior decontamination wash, clay bar, wax protection and wheel detailing. A mini valet (60–90 minutes) is a maintenance service covering exterior wash, interior vacuum, dashboard wipe and glass cleaning.',
+      answer: 'A full valet (3–4 hours) includes complete interior deep clean, exterior decontamination wash, clay bar, wax protection and wheel detailing. A maintenance valet (60–90 minutes) is a maintenance service covering exterior wash, interior vacuum, dashboard wipe and glass cleaning.',
     },
     {
       question: 'Do you valet at my home or workplace?',
@@ -96,7 +96,7 @@ export const manchesterCarValetingPillar: PillarPageData = {
     },
     {
       question: 'How much does a car valet cost in Manchester?',
-      answer: 'Mini valets start from £50, full valets from £120. Prices vary by vehicle size. Check our pricing page or call us for an exact quote for your vehicle.',
+      answer: 'Maintenance valets start from £45, full valets from £90. Prices vary by vehicle size. Check our pricing page or call us for an exact quote for your vehicle.',
     },
   ],
   relatedLinks: [

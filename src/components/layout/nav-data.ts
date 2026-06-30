@@ -102,7 +102,7 @@ export const VALETING_NAV: NavSection = {
       description: 'Complete interior & exterior professional clean',
     },
     {
-      label: 'Mini Valet',
+      label: 'Maintenance Valet',
       href: '/manchester/car-valeting/mini-valet',
       description: 'Maintenance wash & freshen in 60\u201390 minutes',
     },
@@ -209,7 +209,7 @@ export const FOOTER_LINKS = {
   ],
   valeting: [
     { label: 'Full Valet', href: '/manchester/car-valeting/full-valet' },
-    { label: 'Mini Valet', href: '/manchester/car-valeting/mini-valet' },
+    { label: 'Maintenance Valet', href: '/manchester/car-valeting/mini-valet' },
     { label: 'Mobile Valeting', href: '/manchester/car-valeting/mobile-valeting' },
     { label: 'Interior Valeting', href: '/manchester/car-valeting/interior-valeting' },
     { label: 'Exterior Valeting', href: '/manchester/car-valeting/exterior-valeting' },

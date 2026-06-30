@@ -94,7 +94,7 @@ export const mobileValetingWilmslow: ServicePageData = {
   ],
   relatedLinks: [
     { label: 'Full Valet Wilmslow', href: '/wilmslow/car-valeting/full-valet', description: 'Our most comprehensive mobile valet service' },
-    { label: 'Mini Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Quick 60–90 minute maintenance clean' },
+    { label: 'Maintenance Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Quick 60–90 minute maintenance clean' },
     { label: 'Car Detailing Wilmslow', href: '/wilmslow/car-detailing', description: 'Mobile paint correction and ceramic coating' },
     { label: 'Car Valeting Wilmslow', href: '/wilmslow/car-valeting', description: 'All valeting services across SK9' },
     { label: 'Book Now', href: '/booking' },

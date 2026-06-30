@@ -269,19 +269,19 @@ export const comparisonsData: ComparePageData[] = [
   },
   {
     slug: 'full-valet-vs-mini-valet',
-    title: 'Full Valet vs Mini Valet: Which Do You Need?',
+    title: 'Full Valet vs Maintenance Valet: Which Do You Need?',
     seo: {
-      title: 'Full Valet vs Mini Valet | Which Do You Need? | SRV Detailing',
-      description: 'Full valet vs mini valet compared. What\'s included, how long each takes, prices and which is right for your situation.',
-      keywords: ['full valet vs mini valet', 'mini valet or full valet', 'difference between full and mini valet'],
+      title: 'Full Valet vs Maintenance Valet | Which Do You Need? | SRV Detailing',
+      description: 'Full valet vs maintenance valet compared. What\'s included, how long each takes, prices and which is right for your situation.',
+      keywords: ['full valet vs mini valet', 'maintenance valet or full valet', 'difference between full and maintenance valet'],
       canonical: 'https://www.srvdetailing.co.uk/compare/full-valet-vs-mini-valet',
     },
     breadcrumbs: [
       { label: 'Home', href: '/' },
       { label: 'Compare', href: '/compare' },
-      { label: 'Full Valet vs Mini Valet', href: '/compare/full-valet-vs-mini-valet' },
+      { label: 'Full Valet vs Maintenance Valet', href: '/compare/full-valet-vs-mini-valet' },
     ],
-    heroTitle: 'Full Valet vs Mini Valet',
+    heroTitle: 'Full Valet vs Maintenance Valet',
     heroDescription: 'Both keep your car clean — but one is a quick refresh while the other is a thorough deep clean. Here\'s how to choose.',
     optionA: {
       name: 'Full Valet',
@@ -294,16 +294,16 @@ export const comparisonsData: ComparePageData[] = [
       ],
       cons: [
         'Takes 3–4 hours to complete',
-        'Higher cost (from £120)',
+        'Higher cost (from £90)',
         'Vehicle is unavailable for longer',
         'Overkill for a lightly soiled car',
       ],
     },
     optionB: {
-      name: 'Mini Valet',
+      name: 'Maintenance Valet',
       pros: [
         'Quick turnaround — 60–90 minutes',
-        'Affordable at £50',
+        'Affordable at £45',
         'Perfect for regular maintenance',
         'Vehicle back to you quickly',
         'Covers the essential cleaning tasks',
@@ -317,7 +317,7 @@ export const comparisonsData: ComparePageData[] = [
     },
     comparisonTable: [
       { feature: 'Duration', optionA: '3–4 hours', optionB: '60–90 minutes' },
-      { feature: 'Price (from)', optionA: '£120', optionB: '£50' },
+      { feature: 'Price (from)', optionA: '£90', optionB: '£45' },
       { feature: 'Exterior Wash', optionA: 'Full decontamination wash', optionB: 'Snow foam and hand wash' },
       { feature: 'Clay Bar', optionA: 'Yes', optionB: 'No' },
       { feature: 'Interior', optionA: 'Deep clean + upholstery treatment', optionB: 'Vacuum + wipe down' },
@@ -325,7 +325,7 @@ export const comparisonsData: ComparePageData[] = [
       { feature: 'Wheels', optionA: 'Deep clean + dressing', optionB: 'Basic clean' },
       { feature: 'Best For', optionA: 'Monthly deep maintenance', optionB: 'Fortnightly quick refresh' },
     ],
-    verdict: 'A full valet every 4–6 weeks provides the best care for your vehicle, with mini valets in between to maintain freshness. If you can only choose one, a monthly full valet is the better investment. If budget or time is tight, a fortnightly mini valet keeps your car presentable and prevents dirt buildup.',
+    verdict: 'A full valet every 4–6 weeks provides the best care for your vehicle, with maintenance valets in between to maintain freshness. If you can only choose one, a monthly full valet is the better investment. If budget or time is tight, a fortnightly maintenance valet keeps your car presentable and prevents dirt buildup.',
     contentSections: [
       {
         type: 'text',
@@ -334,18 +334,18 @@ export const comparisonsData: ComparePageData[] = [
       },
       {
         type: 'text',
-        heading: 'When to Choose a Mini Valet',
-        body: 'A mini valet is perfect for a quick refresh between full valets. If your car is generally clean but needs a tidy-up, a mini valet restores it to a presentable standard in under 90 minutes. It\'s also ideal for time-pressed professionals who need their car cleaned during a lunch break.',
+        heading: 'When to Choose a Maintenance Valet',
+        body: 'A maintenance valet is perfect for a quick refresh between full valets. If your car is generally clean but needs a tidy-up, a maintenance valet restores it to a presentable standard in under 90 minutes. It\'s also ideal for time-pressed professionals who need their car cleaned during a lunch break.',
       },
     ],
     faqs: [
-      { question: 'How often should I get a full valet?', answer: 'Every 4–6 weeks for most vehicles. If your car has ceramic coating, every 6–8 weeks is sufficient. Between full valets, a mini valet every 2 weeks keeps things fresh.' },
-      { question: 'Can a mini valet remove stains?', answer: 'A mini valet includes basic interior vacuuming and wiping but not deep stain removal. For stubborn stains on upholstery or carpets, a full valet with upholstery treatment is needed.' },
-      { question: 'Which is better value for money?', answer: 'A full valet offers more value per pound spent. However, alternating between full and mini valets provides the best balance of cost and maintenance for most car owners.' },
+      { question: 'How often should I get a full valet?', answer: 'Every 4–6 weeks for most vehicles. If your car has ceramic coating, every 6–8 weeks is sufficient. Between full valets, a maintenance valet every 2 weeks keeps things fresh.' },
+      { question: 'Can a maintenance valet remove stains?', answer: 'A maintenance valet includes basic interior vacuuming and wiping but not deep stain removal. For stubborn stains on upholstery or carpets, a full valet with upholstery treatment is needed.' },
+      { question: 'Which is better value for money?', answer: 'A full valet offers more value per pound spent. However, alternating between full and maintenance valets provides the best balance of cost and maintenance for most car owners.' },
     ],
     relatedLinks: [
       { label: 'Full Valet Manchester', href: '/manchester/car-valeting/full-valet', description: 'Our full valet service' },
-      { label: 'Mini Valet Manchester', href: '/manchester/car-valeting/mini-valet', description: 'Our mini valet service' },
+      { label: 'Maintenance Valet Manchester', href: '/manchester/car-valeting/mini-valet', description: 'Our maintenance valet service' },
       { label: 'Valeting Prices', href: '/pricing/car-valeting', description: 'View all prices' },
       { label: 'What Is Car Valeting?', href: '/guides/what-is-car-valeting', description: 'Complete guide' },
     ],

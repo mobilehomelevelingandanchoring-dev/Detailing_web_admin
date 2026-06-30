@@ -7,7 +7,7 @@ export const valetingPricesWilmslow: ServicePageData = {
   seo: {
     title: 'Car Valeting Prices Wilmslow | SK9 Valeting Cost | SRV Detailing',
     description:
-      'Car valeting prices in Wilmslow. Mini valet from £50, full valet from £120. Transparent pricing for all valeting services across SK9 and Cheshire East. No hidden charges.',
+      'Car valeting prices in Wilmslow. Maintenance valet from £45, full valet from £90. Transparent pricing for all valeting services across SK9 and Cheshire East. No hidden charges.',
     keywords: [
       'car valeting prices wilmslow',
       'full valet cost wilmslow',
@@ -32,8 +32,8 @@ export const valetingPricesWilmslow: ServicePageData = {
       type: 'list',
       heading: 'Wilmslow Car Valeting Price Guide',
       items: [
-        'Mini Valet (exterior hand wash, interior vacuum, dash wipe, glass): from £50 (hatchback) / from £60 (SUV/prestige)',
-        'Full Valet (complete interior and exterior, 3–4 hours): from £120 (standard) / from £150 (large SUV/prestige)',
+        'Maintenance Valet (exterior hand wash, interior vacuum, dash wipe, glass): from £45 (hatchback) / from £60 (SUV/prestige)',
+        'Full Valet (complete interior and exterior, 3–4 hours): from £90 (standard) / from £150 (large SUV/prestige)',
         'Exterior Valet only (hand wash, wheel decontamination, wax): from £50',
         'Interior Valet only (vacuum, steam, trim, glass): from £60',
         'Mobile Car Wash (snow foam, hand wash, wheels, quick detailer): from £30',
@@ -56,7 +56,7 @@ export const valetingPricesWilmslow: ServicePageData = {
       heading: 'Regular Customer Pricing',
       items: [
         'Regular valeting customers (monthly or more frequent bookings) receive priority scheduling and consistent rates',
-        'Standing appointments available for weekly, fortnightly, or monthly mini valets',
+        'Standing appointments available for weekly, fortnightly, or monthly maintenance valets',
         'Seasonal packages available — contact us to discuss a care programme for your Wilmslow vehicle',
       ],
     },

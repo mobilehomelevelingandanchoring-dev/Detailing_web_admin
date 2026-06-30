@@ -39,7 +39,7 @@ export const stockportCarValetingPillar: PillarPageData = {
     },
     {
       slug: 'mini-valet',
-      name: 'Mini Valet',
+      name: 'Maintenance Valet',
       description: 'Quick maintenance clean in 60–90 minutes. Perfect between full valets.',
       icon: Droplets,
       href: '/stockport/car-valeting/mini-valet',
@@ -124,7 +124,7 @@ export const stockportCarValetingPillar: PillarPageData = {
     {
       question: 'How much does a car valet cost in Stockport?',
       answer:
-        'Mini valets from £50, full valets from £120. Price varies by vehicle size and condition. Contact us for a transparent quote — no hidden charges.',
+        'Maintenance valets from £45, full valets from £90. Price varies by vehicle size and condition. Contact us for a transparent quote — no hidden charges.',
     },
     {
       question: 'Do you cover all areas of Stockport?',
@@ -144,12 +144,12 @@ export const stockportCarValetingPillar: PillarPageData = {
     {
       question: 'How often should I get my car valeted in Greater Manchester?',
       answer:
-        'For daily drivers on Stockport roads, a mini valet every 4–6 weeks and a full valet every 3–4 months is ideal. Winter months with heavy road salt benefit from more frequent decontamination washes.',
+        'For daily drivers on Stockport roads, a maintenance valet every 4–6 weeks and a full valet every 3–4 months is ideal. Winter months with heavy road salt benefit from more frequent decontamination washes.',
     },
   ],
   relatedLinks: [
     { label: 'Full Valet Stockport', href: '/stockport/car-valeting/full-valet', description: 'Complete interior & exterior valet' },
-    { label: 'Mini Valet Stockport', href: '/stockport/car-valeting/mini-valet', description: 'Quick maintenance clean' },
+    { label: 'Maintenance Valet Stockport', href: '/stockport/car-valeting/mini-valet', description: 'Quick maintenance clean' },
     { label: 'Mobile Valeting Stockport', href: '/stockport/car-valeting/mobile-valeting', description: 'We come to your door' },
     { label: 'Car Detailing Stockport', href: '/stockport/car-detailing', description: 'Restoration-grade paint services' },
     { label: 'Paint Correction Stockport', href: '/stockport/car-detailing/paint-correction', description: 'Remove swirl marks & scratches' },

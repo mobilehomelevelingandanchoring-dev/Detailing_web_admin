@@ -263,7 +263,7 @@ const ComprehensiveServicesSection = () => {
     { name: "Full Valet", url: "/services/full-valet", description: "complete interior and exterior transformation" },
     { name: "Interior Valeting", url: "/services/interior-valeting", description: "deep cabin cleaning and restoration" },
     { name: "Exterior Valeting", url: "/services/exterior-valeting", description: "hand washing and paint protection" },
-    { name: "Mini Valet", url: "/services/mini-valet", description: "quick maintenance cleaning" },
+    { name: "Maintenance Valet", url: "/services/mini-valet", description: "quick maintenance cleaning" },
     { name: "Paint Correction", url: "/services/paint-correction", description: "swirl mark and scratch removal" },
     { name: "Ceramic Coating", url: "/services/ceramic-coating", description: "long-term paint protection" },
     { name: "Car Detailing", url: "/services/car-detailing", description: "comprehensive restoration packages" },

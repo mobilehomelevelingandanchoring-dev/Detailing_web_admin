@@ -127,12 +127,12 @@ export const guidesData: GuidePageData[] = [
       {
         type: 'text',
         heading: 'How Much Does Car Valeting Cost?',
-        body: 'A mini valet (exterior wash, interior vacuum, glass clean) typically costs £40–£60. A full valet (comprehensive interior and exterior with protection) ranges from £100–£200 depending on vehicle size. Mobile valeting services (where the valeter comes to you) may charge slightly more for the convenience but save you time and travel.',
+        body: 'A maintenance valet (exterior wash, interior vacuum, glass clean) typically costs from £45. A full valet (comprehensive interior and exterior with protection) starts from £90 depending on vehicle size. Mobile valeting services (where the valeter comes to you) may charge slightly more for the convenience but save you time and travel.',
       },
       {
         type: 'text',
         heading: 'How Often Should You Valet Your Car?',
-        body: 'For most vehicles, a full valet every 4–6 weeks maintains optimal appearance and protection. Between full valets, a fortnightly mini valet keeps things fresh. If your car has a ceramic coating, quarterly valeting with regular maintenance washes is sufficient. Vehicles used for commuting, family transport, or that are frequently parked outdoors benefit from more frequent attention.',
+        body: 'For most vehicles, a full valet every 4–6 weeks maintains optimal appearance and protection. Between full valets, a fortnightly maintenance valet keeps things fresh. If your car has a ceramic coating, quarterly valeting with regular maintenance washes is sufficient. Vehicles used for commuting, family transport, or that are frequently parked outdoors benefit from more frequent attention.',
       },
     ],
     faqs: [
@@ -141,8 +141,8 @@ export const guidesData: GuidePageData[] = [
         answer: 'Yes. Professional valeters use techniques and products specifically designed to clean without causing damage. Home washing with a single bucket and sponge is the number one cause of swirl marks. A professional valet also includes interior cleaning, clay bar treatment and protection that home washing doesn\'t.',
       },
       {
-        question: 'What\'s the difference between a mini valet and a full valet?',
-        answer: 'A mini valet (60–90 minutes) covers exterior wash, interior vacuum, dashboard wipe and glass clean. A full valet (3–4 hours) adds clay bar decontamination, upholstery treatment, wax protection, wheel detailing and a thorough interior deep clean.',
+        question: 'What\'s the difference between a maintenance valet and a full valet?',
+        answer: 'A maintenance valet (60–90 minutes) covers exterior wash, interior vacuum, dashboard wipe and glass clean. A full valet (3–4 hours) adds clay bar decontamination, upholstery treatment, wax protection, wheel detailing and a thorough interior deep clean.',
       },
       {
         question: 'Do I need valeting if my car has a ceramic coating?',
@@ -186,7 +186,7 @@ export const guidesData: GuidePageData[] = [
         heading: 'Seasonal Valeting Calendar',
         items: [
           'Spring (March–May) — Full valet to remove winter salt and grit build-up. Clay bar treatment recommended to decontaminate paintwork after the harsh months.',
-          'Summer (June–August) — Monthly mini valets to tackle tree sap, pollen, and insect splatter. Full valet at the start of summer with wax protection.',
+          'Summer (June–August) — Monthly maintenance valets to tackle tree sap, pollen, and insect splatter. Full valet at the start of summer with wax protection.',
           'Autumn (September–November) — Full valet before winter. Focus on sealant or wax application for maximum protection against rain and frost.',
           'Winter (December–February) — Fortnightly exterior rinses to remove road salt. Full valet every 6 weeks to prevent corrosion and interior dampness.',
         ],
@@ -206,7 +206,7 @@ export const guidesData: GuidePageData[] = [
       {
         type: 'text',
         heading: 'Monthly vs Quarterly vs Annual Valeting',
-        body: 'Monthly mini valets keep your car looking fresh and prevent contaminant build-up. Quarterly full valets provide deep cleaning and reapply protective products. An annual deep valet or pre-detail valet addresses everything a regular wash cannot — clay bar treatment, fabric extraction, and leather conditioning. The combination of all three keeps your car in outstanding condition year-round.',
+        body: 'Monthly maintenance valets keep your car looking fresh and prevent contaminant build-up. Quarterly full valets provide deep cleaning and reapply protective products. An annual deep valet or pre-detail valet addresses everything a regular wash cannot — clay bar treatment, fabric extraction, and leather conditioning. The combination of all three keeps your car in outstanding condition year-round.',
       },
     ],
     faqs: [
@@ -499,8 +499,8 @@ export const guidesData: GuidePageData[] = [
       },
       {
         type: 'text',
-        heading: 'Full Valet vs Mini Valet',
-        body: 'A mini valet covers the basics — quick exterior wash, interior vacuum, and glass clean — in around 60–90 minutes. A full valet goes much further with decontamination, upholstery treatment, trim dressing, and wax protection. For regular maintenance, alternate between the two: full valet monthly and mini valet fortnightly.',
+        heading: 'Full Valet vs Maintenance Valet',
+        body: 'A maintenance valet covers the basics — quick exterior wash, interior vacuum, and glass clean — in around 60–90 minutes. A full valet goes much further with decontamination, upholstery treatment, trim dressing, and wax protection. For regular maintenance, alternate between the two: full valet monthly and maintenance valet fortnightly.',
       },
       {
         type: 'text',

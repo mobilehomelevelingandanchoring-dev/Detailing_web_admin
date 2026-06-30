@@ -201,7 +201,7 @@ export const faqTopicsData: FaqTopicData[] = [
     seo: {
       title: 'Car Valeting FAQ Stockport | Expert Answers | SRV Detailing',
       description:
-        'Car valeting questions answered — full valet, mini valet, mobile service, interior cleaning and aftercare. Expert advice for Stockport and Manchester drivers.',
+        'Car valeting questions answered — full valet, maintenance valet, mobile service, interior cleaning and aftercare. Expert advice for Stockport and Manchester drivers.',
       keywords: [
         'car valeting faq',
         'car valeting questions stockport',
@@ -220,7 +220,7 @@ export const faqTopicsData: FaqTopicData[] = [
     ],
     heroTitle: 'Car Valeting FAQ — 30 Expert Questions Answered',
     heroDescription:
-      'Clear, professional answers to the most common car valeting questions — from full valets and mini valets to mobile service, interior cleaning, exterior hand washing, and aftercare. Written by our experienced team for Stockport and Greater Manchester drivers.',
+      'Clear, professional answers to the most common car valeting questions — from full valets and maintenance valets to mobile service, interior cleaning, exterior hand washing, and aftercare. Written by our experienced team for Stockport and Greater Manchester drivers.',
     faqs: [
       // --- General Valeting ---
       {
@@ -231,12 +231,12 @@ export const faqTopicsData: FaqTopicData[] = [
       {
         question: 'What is included in a professional car valet?',
         answer:
-          'A full professional valet covers every surface of the vehicle. Exterior: snow foam pre-wash to loosen contamination, two-bucket hand wash, wheel and tyre detailing, door shuts and jambs cleaned, glass polished streak-free, and wax or sealant protection applied. Interior: professional vacuum throughout including boot and seat rails, upholstery cleaned, dashboard and all trim surfaces treated with UV-protective dressing, door cards and pockets detailed, and interior glass cleaned. A full valet also includes clay bar decontamination. A mini valet covers the exterior wash and a basic interior clean — the full valet goes significantly deeper on every surface.',
+          'A full professional valet covers every surface of the vehicle. Exterior: snow foam pre-wash to loosen contamination, two-bucket hand wash, wheel and tyre detailing, door shuts and jambs cleaned, glass polished streak-free, and wax or sealant protection applied. Interior: professional vacuum throughout including boot and seat rails, upholstery cleaned, dashboard and all trim surfaces treated with UV-protective dressing, door cards and pockets detailed, and interior glass cleaned. A full valet also includes clay bar decontamination. A maintenance valet covers the exterior wash and a basic interior clean — the full valet goes significantly deeper on every surface.',
       },
       {
         question: 'How long does a car valet take?',
         answer:
-          'A mini valet takes 60–90 minutes. A full valet takes 3–5 hours for a standard hatchback or saloon, and 4–6 hours for larger vehicles including estates, SUVs, and 7-seaters. Interior-only and exterior-only services run at 90 minutes to 2.5 hours depending on the vehicle size and condition. Heavily neglected vehicles — those that haven\'t been professionally cleaned in a long time — may take longer. We give an honest assessment before starting rather than rush the work and deliver a compromised result. We quote realistic timeframes, not aspirational ones.',
+          'A maintenance valet takes 60–90 minutes. A full valet takes 3–5 hours for a standard hatchback or saloon, and 4–6 hours for larger vehicles including estates, SUVs, and 7-seaters. Interior-only and exterior-only services run at 90 minutes to 2.5 hours depending on the vehicle size and condition. Heavily neglected vehicles — those that haven\'t been professionally cleaned in a long time — may take longer. We give an honest assessment before starting rather than rush the work and deliver a compromised result. We quote realistic timeframes, not aspirational ones.',
       },
       {
         question: 'Is professional car valeting worth the money?',
@@ -248,21 +248,21 @@ export const faqTopicsData: FaqTopicData[] = [
         answer:
           'The primary differences are in equipment and product quality. Professional valeters use commercial hot water extraction machines that operate at temperatures and pressures unavailable in domestic models — removing staining embedded throughout upholstery fibres rather than surface layers only. Commercial steam cleaners sanitise at temperatures domestic appliances cannot reach. Panel inspection lighting reveals surface defects invisible in normal light. Professional-grade ceramic coatings and paint sealants are not available in consumer retail. pH-neutral shampoos, iron fallout removers, and clay bar decontamination products are consumer-available — knowing how to sequence and apply them correctly is the professional skill.',
       },
-      // --- Full Valet vs Mini Valet ---
+      // --- Full Valet vs Maintenance Valet ---
       {
-        question: "What's the difference between a full valet and a mini valet?",
+        question: "What's the difference between a full valet and a maintenance valet?",
         answer:
-          'A mini valet (60–90 minutes) covers the essentials: exterior snow foam and hand wash, interior vacuum, dashboard wipe, and glass clean. It is a maintenance service — ideal between full valets or when the vehicle is in reasonable condition. A full valet (3–5 hours) adds clay bar decontamination, thorough upholstery cleaning or hot water extraction, comprehensive dashboard and trim detailing, door card cleaning, boot treatment, wheel and arch cleaning to a higher standard, and wax or sealant paint protection. For a vehicle that hasn\'t been professionally cleaned recently, or that has upholstery soiling and environmental contamination, a full valet is the appropriate starting point.',
+          'A maintenance valet (60–90 minutes) covers the essentials: exterior snow foam and hand wash, interior vacuum, dashboard wipe, and glass clean. It is a maintenance service — ideal between full valets or when the vehicle is in reasonable condition. A full valet (3–5 hours) adds clay bar decontamination, thorough upholstery cleaning or hot water extraction, comprehensive dashboard and trim detailing, door card cleaning, boot treatment, wheel and arch cleaning to a higher standard, and wax or sealant paint protection. For a vehicle that hasn\'t been professionally cleaned recently, or that has upholstery soiling and environmental contamination, a full valet is the appropriate starting point.',
       },
       {
-        question: 'When should I choose a full valet over a mini valet?',
+        question: 'When should I choose a full valet over a maintenance valet?',
         answer:
-          'Choose a full valet when the vehicle hasn\'t been professionally cleaned in more than 4–6 weeks, when upholstery is visibly soiled or stained, when paintwork feels rough to the touch after washing (a sign of bonded contamination), or when preparing a vehicle for sale or lease return. After the initial full valet, mini valets every 4–6 weeks maintain the standard effectively. A mini valet on a heavily contaminated vehicle will not achieve the same result as on one recently detailed — do not expect a mini valet to substitute for a full one on a neglected vehicle.',
+          'Choose a full valet when the vehicle hasn\'t been professionally cleaned in more than 4–6 weeks, when upholstery is visibly soiled or stained, when paintwork feels rough to the touch after washing (a sign of bonded contamination), or when preparing a vehicle for sale or lease return. After the initial full valet, maintenance valets every 4–6 weeks maintain the standard effectively. A maintenance valet on a heavily contaminated vehicle will not achieve the same result as on one recently detailed — do not expect a maintenance valet to substitute for a full one on a neglected vehicle.',
       },
       {
-        question: 'What does a mini valet include?',
+        question: 'What does a maintenance valet include?',
         answer:
-          'A mini valet is a professional maintenance clean covering the fundamentals in 60–90 minutes. Exterior: snow foam pre-wash, two-bucket hand wash with pH-neutral shampoo, wheels and tyres cleaned, exterior glass polished streak-free. Interior: full vacuum including boot, dashboard and centre console wiped with surface-appropriate dressing, door cards wiped, interior glass cleaned, floor mats shaken and spot-cleaned. A mini valet maintains a vehicle that is already in good condition. It is not designed to address deeply soiled upholstery, bonded paintwork contamination, or vehicle preparation for sale.',
+          'A maintenance valet is a professional maintenance clean covering the fundamentals in 60–90 minutes. Exterior: snow foam pre-wash, two-bucket hand wash with pH-neutral shampoo, wheels and tyres cleaned, exterior glass polished streak-free. Interior: full vacuum including boot, dashboard and centre console wiped with surface-appropriate dressing, door cards wiped, interior glass cleaned, floor mats shaken and spot-cleaned. A maintenance valet maintains a vehicle that is already in good condition. It is not designed to address deeply soiled upholstery, bonded paintwork contamination, or vehicle preparation for sale.',
       },
       {
         question: 'What is an interior-only valet?',
@@ -362,12 +362,12 @@ export const faqTopicsData: FaqTopicData[] = [
       {
         question: 'How much does mobile car valeting cost in Stockport?',
         answer:
-          'Mini valet starts from £50 for a standard hatchback; full valet from £120. Interior-only service from £80; exterior-only from £65. Specialist services — pet hair removal, odour elimination with ozone, upholstery hot water extraction — are priced from £60–£120 depending on the vehicle and extent of contamination. Larger vehicles — estates, SUVs, and 7-seaters — are priced proportionally higher to reflect additional time and product required. There are no call-out charges for SK postcode customers. All prices are confirmed before we start — we give an honest quote on inspection rather than quoting blind and adding charges afterwards.',
+          'Maintenance valet starts from £45 for a standard hatchback; full valet from £90. Interior-only service from £80; exterior-only from £65. Specialist services — pet hair removal, odour elimination with ozone, upholstery hot water extraction — are priced from £60–£120 depending on the vehicle and extent of contamination. Larger vehicles — estates, SUVs, and 7-seaters — are priced proportionally higher to reflect additional time and product required. There are no call-out charges for SK postcode customers. All prices are confirmed before we start — we give an honest quote on inspection rather than quoting blind and adding charges afterwards.',
       },
       {
         question: 'How often should I valet my car in Stockport?',
         answer:
-          "For most vehicles on Greater Manchester roads, a full valet every 4–8 weeks is appropriate. Stockport's road conditions — winter salt from October to March, persistent rainfall, iron fallout from the M60 corridor, and urban traffic film — mean contamination builds up faster than in less demanding environments. Mini valets every 2–4 weeks maintain the standard between full valets cost-effectively. Vehicles with ceramic coating protection need less frequent valeting — the hydrophobic surface repels contamination more effectively and makes each wash easier. For working vehicles, tradespeople's vans, and family cars with children or pets, monthly professional cleaning is the practical minimum.",
+          "For most vehicles on Greater Manchester roads, a full valet every 4–8 weeks is appropriate. Stockport's road conditions — winter salt from October to March, persistent rainfall, iron fallout from the M60 corridor, and urban traffic film — mean contamination builds up faster than in less demanding environments. Maintenance valets every 2–4 weeks maintain the standard between full valets cost-effectively. Vehicles with ceramic coating protection need less frequent valeting — the hydrophobic surface repels contamination more effectively and makes each wash easier. For working vehicles, tradespeople's vans, and family cars with children or pets, monthly professional cleaning is the practical minimum.",
       },
       {
         question: 'How do I keep my car clean for longer after a professional valet?',
@@ -377,7 +377,7 @@ export const faqTopicsData: FaqTopicData[] = [
       {
         question: 'What is the best maintenance schedule for a valeted car?',
         answer:
-          'Start with a full valet to bring the vehicle to a clean baseline. Follow with a mini valet every 4–6 weeks to maintain the standard. Repeat a full valet every 12–16 weeks or when significant soiling warrants it. Have clay bar decontamination done at least once per year to remove bonded contamination before it etches into the clear coat. Consider an annual paint sealant or ceramic coating maintenance top-up to keep protection effective. Vehicles with ceramic coating can extend mini valet intervals to 6–8 weeks and significantly extend the time between full valets, as contamination bonds far less aggressively to a coated surface.',
+          'Start with a full valet to bring the vehicle to a clean baseline. Follow with a maintenance valet every 4–6 weeks to maintain the standard. Repeat a full valet every 12–16 weeks or when significant soiling warrants it. Have clay bar decontamination done at least once per year to remove bonded contamination before it etches into the clear coat. Consider an annual paint sealant or ceramic coating maintenance top-up to keep protection effective. Vehicles with ceramic coating can extend maintenance valet intervals to 6–8 weeks and significantly extend the time between full valets, as contamination bonds far less aggressively to a coated surface.',
       },
     ],
     relatedLinks: [
@@ -385,7 +385,7 @@ export const faqTopicsData: FaqTopicData[] = [
       { label: 'Full Valet Stockport', href: '/stockport/car-valeting/full-valet', description: 'Our full valet service — what\'s included and pricing' },
       { label: 'Mobile Valeting Stockport', href: '/stockport/car-valeting/mobile-valeting', description: 'Mobile service across all SK postcodes' },
       { label: 'Car Valeting Stockport', href: '/stockport/car-valeting', description: 'All valeting services across Stockport' },
-      { label: 'Full Valet vs Mini Valet', href: '/compare/full-valet-vs-mini-valet', description: 'Side-by-side comparison' },
+      { label: 'Full Valet vs Maintenance Valet', href: '/compare/full-valet-vs-mini-valet', description: 'Side-by-side comparison' },
       { label: 'Valeting Prices', href: '/pricing/car-valeting', description: 'Transparent pricing guide' },
     ],
   },

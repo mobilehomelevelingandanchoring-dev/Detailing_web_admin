@@ -67,7 +67,7 @@ export const carWashWilmslow: ServicePageData = {
     {
       type: 'text',
       heading: 'Upgrade to a Valet or Full Detail',
-      body: "A mobile car wash keeps the exterior clean and looking sharp. If your Wilmslow vehicle needs deeper care — stain removal, interior attention, paintwork protection, or a complete refresh before a concours event or private sale — our car valeting and detailing services take it further. A mini valet adds a full interior clean, dashboard wipe, and glass clean. A full valet covers every surface inside and out. For paintwork restoration, ceramic coating, or paint correction on a prestige vehicle, explore our full Wilmslow car detailing range.",
+      body: "A mobile car wash keeps the exterior clean and looking sharp. If your Wilmslow vehicle needs deeper care — stain removal, interior attention, paintwork protection, or a complete refresh before a concours event or private sale — our car valeting and detailing services take it further. A maintenance valet adds a full interior clean, dashboard wipe, and glass clean. A full valet covers every surface inside and out. For paintwork restoration, ceramic coating, or paint correction on a prestige vehicle, explore our full Wilmslow car detailing range.",
     },
   ],
   faqs: [
@@ -98,7 +98,7 @@ export const carWashWilmslow: ServicePageData = {
     },
   ],
   relatedLinks: [
-    { label: 'Mini Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Interior and exterior clean in 60–90 minutes' },
+    { label: 'Maintenance Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Interior and exterior clean in 60–90 minutes' },
     { label: 'Full Valet Wilmslow', href: '/wilmslow/car-valeting/full-valet', description: 'Complete interior and exterior valet' },
     { label: 'Exterior Valeting Wilmslow', href: '/wilmslow/car-valeting/exterior-valeting', description: 'Exterior-only professional valet' },
     { label: 'Car Detailing Wilmslow', href: '/wilmslow/car-detailing', description: 'Paint correction and ceramic coating' },

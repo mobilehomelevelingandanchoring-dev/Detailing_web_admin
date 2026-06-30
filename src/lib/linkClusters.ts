@@ -132,7 +132,7 @@ const manchesterValetingCluster: TopicalCluster = {
     },
     {
       href: '/manchester/car-valeting/mini-valet',
-      label: 'Mini Valet Manchester',
+      label: 'Maintenance Valet Manchester',
       description: 'Quick interior and exterior refresh — ideal for regular maintenance.',
       priority: 2,
     },
@@ -280,7 +280,7 @@ const stockportValetingCluster: TopicalCluster = {
     },
     {
       href: '/stockport/car-valeting/mini-valet',
-      label: 'Mini Valet Stockport',
+      label: 'Maintenance Valet Stockport',
       description: 'Quick interior and exterior refresh — ideal for regular maintenance.',
       priority: 2,
     },

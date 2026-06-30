@@ -65,7 +65,7 @@ export const fullValetWarrington: ServicePageData = {
     {
       question: 'How much does a full valet cost in Warrington?',
       answer:
-        'Full valets start from £120 for a standard car, increasing for larger vehicles (SUVs, vans). Contact us for an exact quote for your vehicle.',
+        'Full valets start from £90 for a standard car, increasing for larger vehicles (SUVs, vans). Contact us for an exact quote for your vehicle.',
     },
     {
       question: 'Is a full valet different from car detailing?',
@@ -79,11 +79,11 @@ export const fullValetWarrington: ServicePageData = {
     },
   ],
   relatedLinks: [
-    { label: 'Mini Valet Warrington', href: '/warrington/car-valeting/mini-valet', description: 'Quick maintenance clean' },
+    { label: 'Maintenance Valet Warrington', href: '/warrington/car-valeting/mini-valet', description: 'Quick maintenance clean' },
     { label: 'Mobile Valeting Warrington', href: '/warrington/car-valeting/mobile-valeting', description: 'We come to you' },
     { label: 'Car Valeting Warrington', href: '/warrington/car-valeting', description: 'All valeting packages' },
     { label: 'Car Detailing Warrington', href: '/warrington/car-detailing', description: 'Restoration-grade services' },
     { label: 'Valeting Prices', href: '/pricing/car-valeting', description: 'View all pricing' },
   ],
-  schemaPrice: '120',
+  schemaPrice: '90',
 };

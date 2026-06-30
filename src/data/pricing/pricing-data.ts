@@ -113,8 +113,8 @@ export const valetingPricing: PricingPageData = {
   seo: {
     title: 'Car Valeting Prices Manchester & Stockport | SRV Detailing',
     description:
-      'Car valeting prices for Manchester and Stockport. Mini valet from £50, full valet from £120. Transparent pricing, mobile service included.',
-    keywords: ['car valeting prices', 'full valet cost', 'mini valet price', 'valeting prices manchester'],
+      'Car valeting prices for Manchester and Stockport. Maintenance valet from £45, full valet from £90. Transparent pricing, mobile service included.',
+    keywords: ['car valeting prices', 'full valet cost', 'maintenance valet price', 'valeting prices manchester'],
     canonical: 'https://www.srvdetailing.co.uk/pricing/car-valeting',
   },
   breadcrumbs: [
@@ -129,8 +129,8 @@ export const valetingPricing: PricingPageData = {
     'All prices are starting prices for standard-sized vehicles. Larger vehicles (SUVs, estates, vans) are priced higher. Every package includes mobile service to your location across Manchester and Stockport.',
   tiers: [
     {
-      name: 'Mini Valet',
-      price: 'From £50',
+      name: 'Maintenance Valet',
+      price: 'From £45',
       description: 'Quick maintenance clean in 60–90 minutes. Perfect between full valets.',
       features: [
         'Exterior wash (snow foam + hand wash)',
@@ -140,14 +140,14 @@ export const valetingPricing: PricingPageData = {
         'Glass clean inside and out',
       ],
       vehicleSizes: [
-        { size: 'Small (Hatchback)', price: '£50' },
+        { size: 'Small (Hatchback)', price: '£45' },
         { size: 'Medium (Saloon/Estate)', price: '£65' },
         { size: 'Large (SUV/Van)', price: '£80' },
       ],
     },
     {
       name: 'Full Valet',
-      price: 'From £120',
+      price: 'From £90',
       description: 'Comprehensive interior and exterior clean. Our most popular valeting package.',
       features: [
         'Snow foam pre-wash + two-bucket hand wash',
@@ -162,7 +162,7 @@ export const valetingPricing: PricingPageData = {
       ],
       popular: true,
       vehicleSizes: [
-        { size: 'Small (Hatchback)', price: '£120' },
+        { size: 'Small (Hatchback)', price: '£90' },
         { size: 'Medium (Saloon/Estate)', price: '£150' },
         { size: 'Large (SUV/Van)', price: '£190' },
       ],
@@ -191,7 +191,7 @@ export const valetingPricing: PricingPageData = {
   faqs: [
     {
       question: 'How often should I get my car valeted?',
-      answer: 'A full valet every 4–6 weeks is ideal. Between full valets, a monthly mini valet keeps things fresh. If your car has a ceramic coating, quarterly valeting is usually sufficient.',
+      answer: 'A full valet every 4–6 weeks is ideal. Between full valets, a monthly maintenance valet keeps things fresh. If your car has a ceramic coating, quarterly valeting is usually sufficient.',
     },
     {
       question: 'Do you offer regular booking discounts?',

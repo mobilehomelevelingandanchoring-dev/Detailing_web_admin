@@ -60,7 +60,7 @@ const reviews = [
   {
     name: 'Chris L.',
     location: 'Hazel Grove, SK7',
-    service: 'Mini Valet',
+    service: 'Maintenance Valet',
     rating: 5,
     text: 'Great for a quick refresh. Came to my house, did a brilliant job in about an hour, and the price was very reasonable. Will use again for sure.',
   },

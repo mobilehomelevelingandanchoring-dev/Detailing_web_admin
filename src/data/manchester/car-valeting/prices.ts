@@ -6,8 +6,8 @@ export const valetingPricesManchester: ServicePageData = {
   name: 'Car Valeting Prices Manchester',
   seo: {
     title: 'Car Valeting Prices Manchester | SRV Detailing',
-    description: 'Car valeting prices for Manchester. Full valet from £120, mini valet from £50, interior valet from £80. Transparent pricing, no hidden costs.',
-    keywords: ['car valeting prices manchester', 'full valet cost manchester', 'mini valet price', 'valeting price list manchester'],
+    description: 'Car valeting prices for Manchester. Full valet from £90, maintenance valet from £45, interior valet from £80. Transparent pricing, no hidden costs.',
+    keywords: ['car valeting prices manchester', 'full valet cost manchester', 'maintenance valet price', 'valeting price list manchester'],
     canonical: 'https://www.srvdetailing.co.uk/manchester/car-valeting/prices',
   },
   icon: Tag,
@@ -24,8 +24,8 @@ export const valetingPricesManchester: ServicePageData = {
       type: 'list',
       heading: 'Our Valeting Price Guide',
       items: [
-        'Full Valet: from £120 (3–4 hours, complete interior and exterior)',
-        'Mini Valet: from £50 (60–90 minutes, maintenance clean)',
+        'Full Valet: from £90 (3–4 hours, complete interior and exterior)',
+        'Maintenance Valet: from £45 (60–90 minutes, maintenance clean)',
         'Interior Valeting: from £80 (deep interior clean only)',
         'Exterior Valeting: from £65 (professional hand wash and protect)',
         'Mobile Valeting: from £50 (we come to your location — no extra charge)',
@@ -48,7 +48,7 @@ export const valetingPricesManchester: ServicePageData = {
   relatedLinks: [
     { label: 'Car Valeting Manchester', href: '/manchester/car-valeting' },
     { label: 'Full Valet', href: '/manchester/car-valeting/full-valet' },
-    { label: 'Mini Valet', href: '/manchester/car-valeting/mini-valet' },
+    { label: 'Maintenance Valet', href: '/manchester/car-valeting/mini-valet' },
     { label: 'Detailing Prices', href: '/manchester/car-detailing/prices' },
     { label: 'Pricing Hub', href: '/pricing' },
   ],

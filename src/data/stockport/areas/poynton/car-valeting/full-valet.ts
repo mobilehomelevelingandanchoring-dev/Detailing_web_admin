@@ -108,7 +108,7 @@ export const fullValetPoynton: ServicePageData = {
     {
       question: 'How much does a full valet cost in Poynton?',
       answer:
-        "Full valets start from £120 for a standard hatchback or saloon. Larger vehicles — estates, SUVs, MPVs — start from £150. We give exact quotes when booking based on vehicle size and condition. No hidden charges or travel fees for SK12.",
+        "Full valets start from £90 for a standard hatchback or saloon. Larger vehicles — estates, SUVs, MPVs — start from £130. We give exact quotes when booking based on vehicle size and condition. No hidden charges or travel fees for SK12.",
     },
     {
       question: 'How long does a full valet take in Poynton?',

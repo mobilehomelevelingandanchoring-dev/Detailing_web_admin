@@ -142,7 +142,7 @@ export const wilmslowAreas: AreaPageData[] = [
         type: 'list',
         heading: 'Popular Services in Handforth',
         items: [
-          'Regular mobile car washes and mini valets — frequent cleaning during airport de-icing season',
+          'Regular mobile car washes and maintenance valets — frequent cleaning during airport de-icing season',
           'Full valets for family vehicles and prestige cars',
           'Ceramic coating for long-term protection from airport chemical exposure',
           'Exterior detailing with chemical decontamination to address airport de-icing residues',
@@ -197,7 +197,7 @@ export const wilmslowAreas: AreaPageData[] = [
         items: [
           'Ceramic coating for long-term protection on vehicles used for Tatton Park events and concours preparation',
           'Paint correction to restore show-quality finish before classic car events',
-          'Full valets and mini valets for regular vehicle maintenance',
+          'Full valets and maintenance valets for regular vehicle maintenance',
           'New car protection for vehicles collected from premium Cheshire dealerships',
           'Leather conditioning for classic car and prestige vehicle interiors',
         ],
@@ -252,7 +252,7 @@ export const wilmslowAreas: AreaPageData[] = [
           'Full valets for family vehicles and executive cars',
           'Ceramic coating for long-term protection on prestige vehicles',
           'Paint correction to address swirl marks from automated car washes',
-          'Regular mini valets for commuter vehicles used on A34 and M60 routes',
+          'Regular maintenance valets for commuter vehicles used on A34 and M60 routes',
           'Interior detailing for family cars with children and pets',
         ],
       },
@@ -303,7 +303,7 @@ export const wilmslowAreas: AreaPageData[] = [
         type: 'list',
         heading: 'Popular Services in Macclesfield',
         items: [
-          'Full valets and mini valets for regular vehicle maintenance',
+          'Full valets and maintenance valets for regular vehicle maintenance',
           'Ceramic coating for long-term protection on prestige and daily-use vehicles',
           'Paint correction to address swirl marks and salt-accelerated clear coat degradation',
           'Interior detailing for family vehicles used on Peak District routes',

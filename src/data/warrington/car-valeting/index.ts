@@ -15,7 +15,8 @@ export const warringtonCarValetingPillar: PillarPageData = {
       'car wash warrington',
       'professional valeting warrington',
     ],
-    canonical: 'https://www.srvdetailing.co.uk/warrington/car-valeting',
+    canon
+    ical: 'https://www.srvdetailing.co.uk/warrington/car-valeting',
   },
   breadcrumbs: [
     { label: 'Home', href: '/' },
@@ -26,7 +27,7 @@ export const warringtonCarValetingPillar: PillarPageData = {
   heroDescription:
     'Regular professional cleaning that keeps your Warrington vehicle looking fresh, comfortable and well-maintained. Hand-wash only, premium products, delivered to your door anywhere across WA1–WA5.',
   introText:
-    "Car valeting is professional-grade cleaning and maintenance delivered to your location. For Warrington drivers dealing with the grime of the M6 and M62 corridors, regular professional valeting makes a tangible difference — removing contamination safely before it bonds to your paintwork. We offer packages from a focused 60-minute mini valet to a comprehensive 3–4 hour full valet, all from our fully equipped mobile unit.",
+    "Car valeting is professional-grade cleaning and maintenance delivered to your location. For Warrington drivers dealing with the grime of the M6 and M62 corridors, regular professional valeting makes a tangible difference — removing contamination safely before it bonds to your paintwork. We offer packages from a focused 60-minute maintenance valet to a comprehensive 3–4 hour full valet, all from our fully equipped mobile unit.",
   services: [
     {
       slug: 'full-valet',
@@ -38,7 +39,7 @@ export const warringtonCarValetingPillar: PillarPageData = {
     },
     {
       slug: 'mini-valet',
-      name: 'Mini Valet',
+      name: 'Maintenance Valet',
       description:
         'Quick maintenance clean in 60 to 90 minutes. Perfect between full valets to keep your car looking sharp.',
       icon: Droplets,
@@ -103,12 +104,12 @@ export const warringtonCarValetingPillar: PillarPageData = {
     {
       question: 'How often should I get my car valeted in Warrington?',
       answer:
-        'For most vehicles, a full valet every 4–6 weeks keeps your car in excellent condition. Motorway commuters in Warrington may benefit from more frequent mini valets given the road grime exposure on the M6 and M62. Between full valets, monthly mini valets maintain the finish.',
+        'For most vehicles, a full valet every 4–6 weeks keeps your car in excellent condition. Motorway commuters in Warrington may benefit from more frequent maintenance valets given the road grime exposure on the M6 and M62. Between full valets, monthly maintenance valets maintain the finish.',
     },
     {
       question: 'What is the difference between a full valet and a mini valet?',
       answer:
-        'A full valet (3–4 hours) includes complete interior deep clean, exterior decontamination wash, clay bar, wax protection and wheel detailing. A mini valet (60–90 minutes) is a maintenance service covering exterior wash, interior vacuum, dashboard wipe and glass cleaning.',
+        'A full valet (3–4 hours) includes complete interior deep clean, exterior decontamination wash, clay bar, wax protection and wheel detailing. A maintenance valet (60–90 minutes) is a maintenance service covering exterior wash, interior vacuum, dashboard wipe and glass cleaning.',
     },
     {
       question: 'Do you valet at my home or workplace in Warrington?',
@@ -118,7 +119,7 @@ export const warringtonCarValetingPillar: PillarPageData = {
     {
       question: 'How much does a car valet cost in Warrington?',
       answer:
-        'Mini valets start from £50, full valets from £120. Prices vary by vehicle size. Contact us for an exact quote.',
+        'Maintenance valets start from £45, full valets from £90. Prices vary by vehicle size. Contact us for an exact quote.',
     },
   ],
   relatedLinks: [

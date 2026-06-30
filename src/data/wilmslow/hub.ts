@@ -54,7 +54,7 @@ export const wilmslowHub: LocationHubData = {
     {
       name: 'Car Valeting',
       description:
-        'Professional maintenance cleaning — full valets, mini valets, interior and exterior packages delivered to your Wilmslow driveway.',
+        'Professional maintenance cleaning — full valets, maintenance valets, interior and exterior packages delivered to your Wilmslow driveway.',
       href: '/wilmslow/car-valeting',
       icon: Car,
     },

@@ -77,7 +77,7 @@ export const fullValetWilmslow: ServicePageData = {
       type: 'text',
       heading: 'When Wilmslow Drivers Book a Full Valet',
       bodyParagraphs: [
-        "Most SRV Detailing customers across Wilmslow book a full valet two to four times per year — typically at the start of spring after the A34 salt season, ahead of the Cheshire summer show calendar, at the end of summer following tree sap and pollen season, and heading into winter. Between full valets, a mini valet every four to six weeks keeps the vehicle in excellent condition without the full time and cost commitment.",
+        "Most SRV Detailing customers across Wilmslow book a full valet two to four times per year — typically at the start of spring after the A34 salt season, ahead of the Cheshire summer show calendar, at the end of summer following tree sap and pollen season, and heading into winter. Between full valets, a maintenance valet every four to six weeks keeps the vehicle in excellent condition without the full time and cost commitment.",
         "The most common booking triggers in Wilmslow are preparation for private sale of a prestige vehicle, return from an extended holiday or business trip, and the seasonal reset that follows months of Cheshire countryside and commuter driving. A full valet in Wilmslow is a tangible, same-day transformation — your vehicle looks substantially different when we leave your driveway.",
       ],
     },
@@ -91,7 +91,7 @@ export const fullValetWilmslow: ServicePageData = {
     {
       question: 'How often should I get a full valet in Wilmslow?',
       answer:
-        'For most Wilmslow drivers, a full valet every 2 to 3 months is ideal. Between full valets, a mini valet every 4 to 6 weeks maintains the vehicle efficiently. Daily drivers on the A34 or commuting to Manchester benefit from a slightly higher frequency in winter.',
+        'For most Wilmslow drivers, a full valet every 2 to 3 months is ideal. Between full valets, a maintenance valet every 4 to 6 weeks maintains the vehicle efficiently. Daily drivers on the A34 or commuting to Manchester benefit from a slightly higher frequency in winter.',
     },
     {
       question: 'Is a full valet worth it before selling a prestige car?',
@@ -106,16 +106,16 @@ export const fullValetWilmslow: ServicePageData = {
     {
       question: 'How much does a full valet cost in Wilmslow?',
       answer:
-        'Full valets start from £120 for a standard hatchback or saloon. Larger vehicles — estates, large SUVs, prestige models — start from £150. We provide exact quotes when booking based on vehicle size and condition.',
+        'Full valets start from £90 for a standard hatchback or saloon. Larger vehicles — estates, large SUVs, prestige models — start from £150. We provide exact quotes when booking based on vehicle size and condition.',
     },
   ],
   relatedLinks: [
-    { label: 'Mini Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Quick 60–90 minute maintenance clean between full valets' },
+    { label: 'Maintenance Valet Wilmslow', href: '/wilmslow/car-valeting/mini-valet', description: 'Quick 60–90 minute maintenance clean between full valets' },
     { label: 'Interior Valeting Wilmslow', href: '/wilmslow/car-valeting/interior-valeting', description: 'Interior-only service when the exterior is clean' },
     { label: 'Exterior Valeting Wilmslow', href: '/wilmslow/car-valeting/exterior-valeting', description: 'Exterior-only service when the interior is fine' },
     { label: 'Leather Conditioning Wilmslow', href: '/wilmslow/car-detailing/leather-conditioning', description: 'Specialist leather care for prestige interiors' },
     { label: 'Car Valeting Prices Wilmslow', href: '/wilmslow/car-valeting/prices', description: 'Full pricing guide' },
     { label: 'Book Now', href: '/booking' },
   ],
-  schemaPrice: '120',
+  schemaPrice: '90',
 };

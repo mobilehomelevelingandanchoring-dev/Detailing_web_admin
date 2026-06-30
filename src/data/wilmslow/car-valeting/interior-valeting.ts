@@ -78,7 +78,7 @@ export const interiorValetingWilmslow: ServicePageData = {
     {
       question: 'Can you add an exterior wash to an interior valet?',
       answer:
-        "Yes. A mini valet combines both interior and exterior cleaning in 60–90 minutes, or we can add an exterior wash to an interior valet booking. The most efficient and cost-effective option is a mini valet if both are needed.",
+        "Yes. A maintenance valet combines both interior and exterior cleaning in 60–90 minutes, or we can add an exterior wash to an interior valet booking. The most efficient and cost-effective option is a maintenance valet if both are needed.",
     },
   ],
   relatedLinks: [

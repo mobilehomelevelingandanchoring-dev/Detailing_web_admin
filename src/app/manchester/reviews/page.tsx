@@ -67,7 +67,7 @@ const reviews = [
   {
     name: 'Lisa H.',
     location: 'City Centre, M1',
-    service: 'Mini Valet',
+    service: 'Maintenance Valet',
     rating: 5,
     text: 'Came to my office car park in Spinningfields and valeted my car while I worked. Convenient, professional and the car looked fantastic. Perfect city centre service.',
   },

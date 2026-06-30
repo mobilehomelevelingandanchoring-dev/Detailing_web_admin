@@ -31,7 +31,7 @@ export const mobileValetingWarrington: ServicePageData = {
     {
       type: 'text',
       heading: 'What Is Mobile Valeting?',
-      body: "Mobile valeting means we bring the professional equipment, products and expertise directly to your location — wherever that may be across Warrington. Our custom-equipped van carries its own water supply, onboard power generator, professional lighting, and every product needed for any service from a quick mini valet to a full decontamination detail. You don't travel to us — we come to you, at a time that suits your schedule.",
+      body: "Mobile valeting means we bring the professional equipment, products and expertise directly to your location — wherever that may be across Warrington. Our custom-equipped van carries its own water supply, onboard power generator, professional lighting, and every product needed for any service from a quick maintenance valet to a full decontamination detail. You don't travel to us — we come to you, at a time that suits your schedule.",
     },
     {
       type: 'list',
@@ -76,17 +76,17 @@ export const mobileValetingWarrington: ServicePageData = {
     {
       question: 'What services can you do as a mobile valet?',
       answer:
-        'All of them. Mini valets, full valets, interior detailing, exterior detailing and ceramic coating can all be performed from our mobile unit. The only requirement for ceramic coatings is a covered space or shelter.',
+        'All of them. Maintenance valets, full valets, interior detailing, exterior detailing and ceramic coating can all be performed from our mobile unit. The only requirement for ceramic coatings is a covered space or shelter.',
     },
     {
       question: 'How much does mobile valeting cost in Warrington?',
       answer:
-        'There is no extra charge for the mobile convenience. Mini valets from £50, full valets from £120. The same professional service at the same price — delivered to your door.',
+        'There is no extra charge for the mobile convenience. Maintenance valets from £45, full valets from £90. The same professional service at the same price — delivered to your door.',
     },
   ],
   relatedLinks: [
     { label: 'Full Valet Warrington', href: '/warrington/car-valeting/full-valet', description: 'Our most comprehensive service' },
-    { label: 'Mini Valet Warrington', href: '/warrington/car-valeting/mini-valet', description: 'Quick 60-90 minute refresh' },
+    { label: 'Maintenance Valet Warrington', href: '/warrington/car-valeting/mini-valet', description: 'Quick 60-90 minute refresh' },
     { label: 'Car Valeting Warrington', href: '/warrington/car-valeting', description: 'All valeting packages' },
     { label: 'Warrington Hub', href: '/warrington', description: 'All Warrington services' },
   ],

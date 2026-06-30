@@ -216,7 +216,7 @@ const valetingServices = [
     icon: Star,
   },
   {
-    name: "Mini Valet",
+    name: "Maintenance Valet",
     href: "/manchester/car-valeting/mini-valet",
     description:
       "Quick maintenance clean in 60 to 90 minutes. Perfect between full valets to keep your car fresh.",
